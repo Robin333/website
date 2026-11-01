@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Episode 1: the study | Least Likely</title>
+<meta name="description" content="Data, code and pre-registered designs behind Least Likely&#x27;s first episode.">
+<link rel="canonical" href="https://leastlikelyai.com/study/ep01/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Least Likely">
+<meta property="og:title" content="Episode 1: the study | Least Likely">
+<meta property="og:description" content="Data, code and pre-registered designs behind Least Likely&#x27;s first episode.">
+<meta property="og:url" content="https://leastlikelyai.com/study/ep01/">
+<meta property="og:image" content="https://leastlikelyai.com/assets/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F3F0E8">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/brygada.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="/assets/style.css?v=2395149f">
+</head>
+<body>
+<div class="wrap">
+<header class="site-head">
+  <a class="mark" href="/" aria-label="Least Likely: home"><img src="/assets/monogram.svg" alt="" width="44" height="44"></a>
+  <nav aria-label="Main">
+    <a href="/tools/">Tools</a>
+    <a href="/about/">About</a>
+    <a href="https://www.youtube.com/@LeastLikelyai">YouTube</a>
+  </nav>
+</header>
+<main>
+<div class="prose">
+<h1>Episode 1: the study</h1>
+<p class="lede">The data, code and pre-registered designs behind <em>We Tested Whether AI Still Writes in Clichés</em>. Every figure in the video comes from these files.</p>
+
+<h2>In brief</h2>
+<ul>
+  <li><strong>Main study</strong> (pre-registered): 7 models from 3 vendors, 24 business-writing tasks, 5,880 outputs. Drafting with a vague or specific brief, plainly or told to avoid clichés; and rewriting a sentence "more specific", "clearer" or with the hen-house check.</li>
+  <li><strong>Extension</strong> (pre-registered): the same protocol on three OpenAI models, 2,520 outputs.</li>
+  <li><strong>Follow-up</strong> (exploratory, frozen before the run): three OpenAI models across five genres, 270 outputs.</li>
+  <li><strong>Human check:</strong> the author blind-coded 60 replies, with the model and instruction hidden.</li>
+</ul>
+<p>"Delve", in any form, appears <strong>0 times in the 8,400 outputs</strong> from 10 models. That includes the 6,000 with no instruction to avoid clichés. It is also 0 in the 270 follow-up pieces.</p>
+
+<h2>The files</h2>
+<ul>
+  <li><a href="README.md">README</a>: what's here, how to re-run the analysis, and the limitations in plain words</li>
+  <li>Designs: <a href="design%20v1.0.md">main study</a>, <a href="design%20E1%20v1.0.md">extension</a>, <a href="design%20E2%20v1.0.md">follow-up</a>; <a href="deviations.md">deviations log</a></li>
+  <li>Inputs: <a href="scenarios.json">the 24 tasks</a>, <a href="lexicon%20v0.1.json">the stock-phrase lexicon</a></li>
+  <li>Outputs: <a href="data/runs_main.jsonl">main study</a> (9 MB), <a href="data/runs_main_e1.jsonl">extension</a>, <a href="data/runs_e2.jsonl">follow-up</a>; <a href="data/judge_main.jsonl">judge codes</a>; <a href="data/coding_key_main.json">blind-coding key</a> and <a href="data/coding_compare_main.json">comparison</a></li>
+  <li>Results: <a href="results/main_summary.md">main summary</a>, <a href="results/main_e1_summary.md">extension summary</a>, <a href="results/e2_summary.md">follow-up summary</a>, <a href="results/main_measures.csv">per-output measures</a>, <a href="results/video_figures.json">every figure in the video</a></li>
+  <li>Code: <a href="run.py">run.py</a>, <a href="analyse.py">analyse.py</a>, <a href="judge.py">judge.py</a>, <a href="script_numbers.py">script_numbers.py</a>, and the <a href="../core/models.py">model-access stand-in</a></li>
+</ul>
+<p>Browse everything on <a href="https://github.com/leastlikelyai/website/tree/main/study/ep01">GitHub</a>.</p>
+
+<h2>Licence</h2>
+<p>The data and documents are CC BY 4.0 (credit "Least Likely"), and the code is MIT. See the <a href="LICENSE.md">licence</a>.</p>
+</div>
+</main>
+<footer class="site-foot">
+  <p class="links"><a href="https://www.youtube.com/@LeastLikelyai">YouTube</a> <a href="https://www.linkedin.com/in/robin-jones-3b584816">LinkedIn</a> <a href="mailto:hello@leastlikelyai.com">hello@leastlikelyai.com</a> <a href="/privacy/">Privacy</a> <a href="/terms/">Terms</a></p>
+  <p class="caption">Made by Robin Jones. Views are my own and don&#x27;t represent any employer. This site sets no cookies.</p>
+</footer>
+</div>
+
+</body>
+</html>

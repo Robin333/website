@@ -1,0 +1,93 @@
+/* Least Likely website. Tokens from brand/style-guide v0.2.md:
+   C1 ground, C2 page, C3 ink, C4 machine ink, C5 muted, C7 accent (deep, for small marks).
+   T1 Brygada 1918 (human voice), T2 Gloock (key line, titles), T3 Martian Mono at 87.5% width (machine voice),
+   T6 Brygada italic sentence-case captions. The accent is for 'notice this' only: link underlines and focus. */
+
+@font-face { font-family: "Gloock"; src: url("fonts/gloock.woff") format("woff"); font-display: swap; }
+@font-face { font-family: "Brygada 1918"; src: url("fonts/brygada.woff") format("woff"); font-weight: 400 700; font-display: swap; }
+@font-face { font-family: "Brygada 1918"; src: url("fonts/brygada-italic.woff") format("woff"); font-style: italic; font-weight: 400 700; font-display: swap; }
+@font-face { font-family: "Martian Mono"; src: url("fonts/martian-mono.woff") format("woff"); font-weight: 100 800; font-stretch: 75% 112.5%; font-display: swap; }
+
+:root {
+  --ground: #F3F0E8;
+  --page: #FFFEFB;
+  --ink: #161514;
+  --machine: #3A3936;
+  --muted: #6F6B64;
+  --accent-deep: #C2361F;
+  --rule: rgba(22, 21, 20, 0.12);
+  --serif: "Brygada 1918", Georgia, serif;
+  --display: "Gloock", Georgia, serif;
+  --mono: "Martian Mono", ui-monospace, monospace;
+  --measure: 36rem;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--ground); color: var(--ink); -webkit-text-size-adjust: 100%; }
+body { margin: 0; font: 400 1.1875rem/1.6 var(--serif); }
+img { max-width: 100%; }
+
+a { color: inherit; text-decoration-color: var(--accent-deep); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--accent-deep); outline-offset: 3px; }
+
+.wrap { max-width: 60rem; margin: 0 auto; padding: 0 1.5rem; }
+
+/* Header and footer */
+.site-head { display: flex; align-items: center; justify-content: space-between; padding: 1.25rem 0; }
+.site-head .mark img { display: block; width: 44px; height: 44px; }
+.site-head nav { display: flex; gap: 1.5rem; font-size: 1.0625rem; }
+.site-head nav a { text-decoration: none; }
+.site-head nav a:hover, .site-head nav a[aria-current="page"] { text-decoration: underline; text-decoration-color: var(--accent-deep); }
+
+.site-foot { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 1.5rem 0 3rem; font-size: 1rem; }
+.site-foot .links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin: 0 0 0.75rem; }
+
+main { padding: 1rem 0 0; }
+
+/* Type roles */
+h1, h2, h3 { font-family: var(--display); font-weight: 400; }
+h2 { font-size: 1.75rem; line-height: 1.25; margin: 2.5rem 0 0.75rem; }
+.keyline { font: 400 clamp(1.5rem, 3.4vw, 2.2rem)/1.25 var(--display); max-width: 24em; margin: 0 0 1.5rem; }
+.lede { font-size: 1.3125rem; max-width: var(--measure); margin: 0 0 1rem; }
+.caption { font-style: italic; color: var(--muted); font-size: 1.0625rem; margin: 0 0 1rem; }
+.empty { font-style: italic; color: var(--muted); }
+
+/* Home */
+.hero { padding: 2.5rem 0 1rem; }
+.hero h1 { margin: 0 0 2.25rem; }
+.hero h1 img { display: block; width: min(30rem, 100%); height: auto; }
+
+.actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 2rem 0 0; }
+.btn { display: inline-block; padding: 0.7rem 1.25rem; border: 1.5px solid var(--ink); border-radius: 999px; font-size: 1.0625rem; line-height: 1.2; text-decoration: none; }
+.btn:hover { background: var(--page); }
+.btn.primary { background: var(--ink); color: var(--page); }
+.btn.primary:hover { background: var(--machine); }
+
+.section { border-top: 1px solid var(--rule); margin-top: 3.5rem; padding-top: 0.5rem; }
+
+.episode-card { display: grid; gap: 1.25rem; }
+@media (min-width: 44rem) { .episode-card { grid-template-columns: 1.2fr 1fr; align-items: center; } }
+.episode-card h3 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 0.5rem; }
+.thumb { display: block; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid var(--rule); border-radius: 6px; background: var(--page); }
+.thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* Prose pages (About, episodes) */
+.prose { max-width: var(--measure); }
+.prose h1 { font-size: clamp(2.25rem, 5vw, 3.25rem); line-height: 1.1; margin: 1.5rem 0 1.5rem; }
+.prose ul, .prose ol { padding-left: 1.25rem; }
+.prose li { margin: 0.35rem 0; }
+
+/* Tool cards: the machine voice on a page */
+.tool { margin: 2rem 0 2.5rem; }
+.tool h2 { margin-top: 0; }
+.card { background: var(--page); border: 1px solid var(--rule); border-radius: 6px; padding: 1.25rem 1.25rem 1rem; }
+.card pre { margin: 0; white-space: pre-wrap; font: 400 0.9375rem/1.65 var(--mono); font-stretch: 87.5%; color: var(--machine); }
+button.copy { margin-top: 0.9rem; padding: 0.4rem 0.95rem; border: 1.5px solid var(--ink); border-radius: 999px; background: var(--page); color: var(--ink); font: 400 0.9375rem/1.2 var(--serif); cursor: pointer; }
+button.copy:hover { background: var(--ground); }
+
+@media (max-width: 30rem) {
+  body { font-size: 1.125rem; }
+  .site-head nav { gap: 1rem; }
+  .lede { font-size: 1.1875rem; }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://leastlikelyai.com/sitemap.xml

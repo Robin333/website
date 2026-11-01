@@ -1,0 +1,354 @@
+{
+ "_about": "Ep01 study scenarios. Each one is an invented, generic business-writing task with no real organisation or person. 'facts' make up the specific brief. 'vague_sentence' is the input for Experiment B; it contains stock phrases on purpose. Briefs (task + facts) deliberately avoid stock phrases so the models aren't primed. Pilot scenarios (P*) are used only to test the procedure and estimate variance. They are excluded from the main analysis.",
+ "scenarios": [
+  {
+   "id": "P1",
+   "set": "pilot",
+   "task": "a short email to my team about a new training programme",
+   "facts": [
+    "three 90-minute sessions on 4, 11 and 18 November",
+    "it covers the new expenses system",
+    "filing a claim currently takes about 40 minutes and the aim is under 10",
+    "sign up on the intranet page by 1 November",
+    "questions to Priya"
+   ],
+   "vague_sentence": "We need to heighten engagement with the training programme."
+  },
+  {
+   "id": "P2",
+   "set": "pilot",
+   "task": "a project status update for the steering group",
+   "facts": [
+    "data migration is 70% complete",
+    "two-week delay because the supplier changed its file formats",
+    "new go-live date is 3 March",
+    "requesting £12,000 extra",
+    "decision needed on whether to drop the reporting module from phase one"
+   ],
+   "vague_sentence": "The project is broadly on track, with some challenges we are working through."
+  },
+  {
+   "id": "P3",
+   "set": "pilot",
+   "task": "a message to my team announcing a change to how the team is organised",
+   "facts": [
+    "the 14-person team splits into two groups, onboarding and retention, from 1 February",
+    "Sam leads onboarding and Ade leads retention",
+    "no roles are being cut",
+    "one-to-ones with everyone next week"
+   ],
+   "vague_sentence": "We are restructuring to better align with our strategic priorities."
+  },
+  {
+   "id": "P4",
+   "set": "pilot",
+   "task": "a one-paragraph summary for a quarterly business review slide",
+   "facts": [
+    "revenue was £2.1m against a £2.4m target",
+    "the shortfall is mostly two delayed contracts, now signed for January",
+    "customer churn fell from 6% to 4%",
+    "asking for approval to hire two support staff"
+   ],
+   "vague_sentence": "Q3 was a quarter of mixed performance with strong foundations for growth."
+  },
+  {
+   "id": "S01",
+   "set": "main",
+   "task": "an email inviting colleagues to a lunchtime learning session",
+   "facts": [
+    "Thursday 12:30 to 13:15 in Room 4B and online",
+    "topic: how the new booking tool handles recurring meetings",
+    "20 places",
+    "sandwiches provided",
+    "book through the events calendar"
+   ],
+   "vague_sentence": "Join us for an exciting session to unlock the potential of our new tools."
+  },
+  {
+   "id": "S02",
+   "set": "main",
+   "task": "a short job advert for an operations analyst",
+   "facts": [
+    "12-month fixed-term contract",
+    "salary £38,000 to £42,000",
+    "hybrid, two days a week in Leeds",
+    "main task is building weekly capacity reports in Excel and Power BI",
+    "closing date 15 December"
+   ],
+   "vague_sentence": "We're looking for a passionate self-starter to drive operational excellence."
+  },
+  {
+   "id": "S03",
+   "set": "main",
+   "task": "an email to customers about a price change",
+   "facts": [
+    "the monthly plan rises from £9 to £11 from 1 April",
+    "this is the first price change in three years",
+    "the annual plan stays at £99 until 31 March for anyone who switches",
+    "existing annual subscribers are unaffected until renewal"
+   ],
+   "vague_sentence": "We are evolving our pricing to continue delivering value to our customers."
+  },
+  {
+   "id": "S04",
+   "set": "main",
+   "task": "a note to my manager requesting budget",
+   "facts": [
+    "requesting £4,500 for a usability study",
+    "8 user interviews in January",
+    "the last redesign increased support tickets by 25%",
+    "the results will decide whether we change the checkout flow"
+   ],
+   "vague_sentence": "I'd like to request investment to optimise the customer experience."
+  },
+  {
+   "id": "S05",
+   "set": "main",
+   "task": "an email following up a meeting with a supplier",
+   "facts": [
+    "deliveries move from Tuesdays to Thursdays from 6 January",
+    "the supplier will send a revised invoice by Friday",
+    "still open: who pays for pallet returns",
+    "next call on 20 January"
+   ],
+   "vague_sentence": "Great to connect today, let's keep the momentum going on our partnership."
+  },
+  {
+   "id": "S06",
+   "set": "main",
+   "task": "an internal announcement about a new IT helpdesk system",
+   "facts": [
+    "the new helpdesk portal replaces email support from 10 February",
+    "log tickets through the portal link",
+    "urgent issues still go by phone on extension 4400",
+    "the old support inbox closes on 28 February"
+   ],
+   "vague_sentence": "We are excited to launch a new platform that will transform how we support you."
+  },
+  {
+   "id": "S07",
+   "set": "main",
+   "task": "a summary of a staff survey for the leadership team",
+   "facts": [
+    "62% response rate",
+    "71% would recommend working here, down from 78%",
+    "the top complaint is unclear promotion criteria, cited by 44%",
+    "workload scores unchanged",
+    "proposal: publish promotion criteria by March"
+   ],
+   "vague_sentence": "The survey highlights key opportunities to enhance the employee experience."
+  },
+  {
+   "id": "S08",
+   "set": "main",
+   "task": "a LinkedIn post about a team achievement",
+   "facts": [
+    "the team cut average invoice processing time from 9 days to 3 days over six months",
+    "done by removing two approval steps and automating data entry",
+    "thanks to the finance and IT teams"
+   ],
+   "vague_sentence": "Proud of the team for driving a step change in our efficiency journey."
+  },
+  {
+   "id": "S09",
+   "set": "main",
+   "task": "a short policy note on hybrid working",
+   "facts": [
+    "from 1 March, each team agrees two fixed office days",
+    "managers record them on the team page",
+    "exceptions are agreed with HR",
+    "desk booking is required on office days",
+    "the policy will be reviewed in September"
+   ],
+   "vague_sentence": "We are adopting a flexible, people-first approach to how we work."
+  },
+  {
+   "id": "S10",
+   "set": "main",
+   "task": "an email to a client apologising for a delay",
+   "facts": [
+    "the report due on 5 December will arrive on 12 December",
+    "the reason is that a data source was corrected late",
+    "no extra charge",
+    "interim findings are attached",
+    "offer a call on Monday"
+   ],
+   "vague_sentence": "We are committed to delivering the highest quality and appreciate your patience."
+  },
+  {
+   "id": "S11",
+   "set": "main",
+   "task": "a brief for a design agency",
+   "facts": [
+    "redesign the volunteer sign-up form",
+    "the current completion rate is 35%",
+    "most people drop out at the address page",
+    "it must work on mobile",
+    "budget £6,000",
+    "first concepts by 31 January"
+   ],
+   "vague_sentence": "We want a fresh, modern look that really elevates our brand."
+  },
+  {
+   "id": "S12",
+   "set": "main",
+   "task": "a message to my team about a missed target",
+   "facts": [
+    "we closed 41 support tickets a day last month against a target of 60",
+    "the main cause is two vacancies",
+    "one post is filled from 13 January",
+    "temporary fix: overflow tickets go to the billing team on Mondays"
+   ],
+   "vague_sentence": "We fell short this month, but I know we can rise to the challenge."
+  },
+  {
+   "id": "S13",
+   "set": "main",
+   "task": "a summary of a proposal for a new process",
+   "facts": [
+    "replace monthly paper timesheets with a weekly online form",
+    "saves about 6 hours of admin a month",
+    "pilot with the warehouse team in February",
+    "decision needed from the operations director"
+   ],
+   "vague_sentence": "This proposal will streamline our processes and drive efficiencies."
+  },
+  {
+   "id": "S14",
+   "set": "main",
+   "task": "a newsletter item about a charity fundraiser",
+   "facts": [
+    "the office bake sale raised £1,240 for the local food bank",
+    "38 people baked",
+    "the next event is a quiz night on 7 March",
+    "volunteers sign up with Leanne"
+   ],
+   "vague_sentence": "Our amazing community came together to make a real difference."
+  },
+  {
+   "id": "S15",
+   "set": "main",
+   "task": "a handover note for a colleague covering my leave",
+   "facts": [
+    "cover runs from 2 to 13 December",
+    "three open supplier queries are listed in the tracker",
+    "the Hargreaves contract renewal needs a signature by 9 December",
+    "escalate pricing questions to Mark",
+    "password vault access is already granted"
+   ],
+   "vague_sentence": "Everything is in hand; just keep things ticking over while I'm away."
+  },
+  {
+   "id": "S16",
+   "set": "main",
+   "task": "a short strategy statement for my team's plan next year",
+   "facts": [
+    "focus on cutting customer onboarding time from 30 days to 14",
+    "stop producing the monthly printed report",
+    "hire one data engineer",
+    "measure progress monthly on the onboarding dashboard"
+   ],
+   "vague_sentence": "Our vision is to be a best-in-class, customer-centric team that delivers excellence."
+  },
+  {
+   "id": "S17",
+   "set": "main",
+   "task": "an email asking a colleague for feedback on a draft report",
+   "facts": [
+    "the 12-page report is on warehouse safety incidents",
+    "comments needed on sections 3 and 4 only",
+    "by Wednesday at noon",
+    "especially whether the incident figures are clear",
+    "it goes to the board on 2 December"
+   ],
+   "vague_sentence": "Would love your thoughts on this to help take it to the next level."
+  },
+  {
+   "id": "S18",
+   "set": "main",
+   "task": "a product update note for users of our app",
+   "facts": [
+    "version 4.2 adds offline mode for saved recipes",
+    "fixes the crash when uploading photos on Android 14",
+    "dark mode has moved to Settings > Display",
+    "the update is available from Tuesday"
+   ],
+   "vague_sentence": "We've made some exciting improvements to elevate your experience."
+  },
+  {
+   "id": "S19",
+   "set": "main",
+   "task": "a message recruiting volunteers for a community event",
+   "facts": [
+    "12 volunteers needed for the park clean-up on Saturday 14 March, 9am to 12pm",
+    "gloves and bags provided",
+    "meet at the north gate",
+    "sign up by replying to this message"
+   ],
+   "vague_sentence": "Be part of something bigger and help make our community shine."
+  },
+  {
+   "id": "S20",
+   "set": "main",
+   "task": "an executive summary of a cost-saving review",
+   "facts": [
+    "consolidate three suppliers into one",
+    "saves £86,000 a year",
+    "one-off migration cost of £20,000",
+    "risk: dependence on a single supplier, reduced by a 90-day exit clause",
+    "recommendation: approve in January"
+   ],
+   "vague_sentence": "The review identifies significant opportunities to unlock value across our supply base."
+  },
+  {
+   "id": "S21",
+   "set": "main",
+   "task": "an email from a school to parents about a timetable change",
+   "facts": [
+    "from 6 January the school day ends at 3:20pm instead of 3:10pm",
+    "the extra 10 minutes is reading time",
+    "after-school clubs start at 3:30pm",
+    "questions to the school office"
+   ],
+   "vague_sentence": "We are making changes to support a richer learning experience for all our pupils."
+  },
+  {
+   "id": "S22",
+   "set": "main",
+   "task": "a message to my landlord reporting a repair",
+   "facts": [
+    "the kitchen tap has leaked since 3 November",
+    "water is reaching the cupboard below",
+    "photos attached",
+    "available for a visit on weekday mornings",
+    "tenancy reference 4471"
+   ],
+   "vague_sentence": "There's an ongoing issue in the flat that needs attention at your earliest convenience."
+  },
+  {
+   "id": "S23",
+   "set": "main",
+   "task": "a sales follow-up email to a prospective customer",
+   "facts": [
+    "thanks for the demo on Tuesday",
+    "quote attached for 25 licences at £18 per user per month",
+    "includes onboarding sessions for up to 10 staff",
+    "the quote is valid until 31 January",
+    "offer a call with their IT lead"
+   ],
+   "vague_sentence": "We'd love to partner with you on your digital transformation journey."
+  },
+  {
+   "id": "S24",
+   "set": "main",
+   "task": "a note to my team about a change to our weekly meeting",
+   "facts": [
+    "the weekly team meeting goes from 60 to 30 minutes from next Monday",
+    "updates go in the shared document by Friday 4pm instead",
+    "the meeting covers only decisions and blockers",
+    "trial for six weeks"
+   ],
+   "vague_sentence": "We're rethinking how we collaborate to be more agile and efficient."
+  }
+ ]
+}

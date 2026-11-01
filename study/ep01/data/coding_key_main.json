@@ -1,0 +1,362 @@
+{
+ "C01": {
+  "run_key": "B|S16|-|clearer|claude-opus-5.5|5",
+  "instr": "clearer",
+  "model": "claude-opus-5.5",
+  "scenario": "S16"
+ },
+ "C02": {
+  "run_key": "B|S15|-|specific|claude-haiku-5.5|2",
+  "instr": "specific",
+  "model": "claude-haiku-5.5",
+  "scenario": "S15"
+ },
+ "C03": {
+  "run_key": "B|S02|-|clearer|claude-sonnet-4.6|2",
+  "instr": "clearer",
+  "model": "claude-sonnet-4.6",
+  "scenario": "S02"
+ },
+ "C04": {
+  "run_key": "B|S18|-|specific|nova-pro|5",
+  "instr": "specific",
+  "model": "nova-pro",
+  "scenario": "S18"
+ },
+ "C05": {
+  "run_key": "B|S16|-|orwell|claude-sonnet-4.6|4",
+  "instr": "orwell",
+  "model": "claude-sonnet-4.6",
+  "scenario": "S16"
+ },
+ "C06": {
+  "run_key": "B|S09|-|orwell|nova-lite|5",
+  "instr": "orwell",
+  "model": "nova-lite",
+  "scenario": "S09"
+ },
+ "C07": {
+  "run_key": "B|S05|-|clearer|claude-opus-5.5|4",
+  "instr": "clearer",
+  "model": "claude-opus-5.5",
+  "scenario": "S05"
+ },
+ "C08": {
+  "run_key": "B|S14|-|clearer|qwen3-32b|4",
+  "instr": "clearer",
+  "model": "qwen3-32b",
+  "scenario": "S14"
+ },
+ "C09": {
+  "run_key": "B|S18|-|clearer|nova-lite|4",
+  "instr": "clearer",
+  "model": "nova-lite",
+  "scenario": "S18"
+ },
+ "C10": {
+  "run_key": "B|S24|-|orwell|claude-opus-5.5|1",
+  "instr": "orwell",
+  "model": "claude-opus-5.5",
+  "scenario": "S24"
+ },
+ "C11": {
+  "run_key": "B|S04|-|orwell|nova-pro|3",
+  "instr": "orwell",
+  "model": "nova-pro",
+  "scenario": "S04"
+ },
+ "C12": {
+  "run_key": "B|S14|-|specific|nova-lite|1",
+  "instr": "specific",
+  "model": "nova-lite",
+  "scenario": "S14"
+ },
+ "C13": {
+  "run_key": "B|S24|-|clearer|nova-pro|5",
+  "instr": "clearer",
+  "model": "nova-pro",
+  "scenario": "S24"
+ },
+ "C14": {
+  "run_key": "B|S15|-|clearer|claude-haiku-5.5|2",
+  "instr": "clearer",
+  "model": "claude-haiku-5.5",
+  "scenario": "S15"
+ },
+ "C15": {
+  "run_key": "B|S08|-|orwell|claude-haiku-5.5|4",
+  "instr": "orwell",
+  "model": "claude-haiku-5.5",
+  "scenario": "S08"
+ },
+ "C16": {
+  "run_key": "B|S16|-|specific|claude-haiku-5.5|1",
+  "instr": "specific",
+  "model": "claude-haiku-5.5",
+  "scenario": "S16"
+ },
+ "C17": {
+  "run_key": "B|S15|-|specific|claude-sonnet-5.5|5",
+  "instr": "specific",
+  "model": "claude-sonnet-5.5",
+  "scenario": "S15"
+ },
+ "C18": {
+  "run_key": "B|S23|-|orwell|nova-lite|4",
+  "instr": "orwell",
+  "model": "nova-lite",
+  "scenario": "S23"
+ },
+ "C19": {
+  "run_key": "B|S06|-|orwell|claude-sonnet-5.5|2",
+  "instr": "orwell",
+  "model": "claude-sonnet-5.5",
+  "scenario": "S06"
+ },
+ "C20": {
+  "run_key": "B|S21|-|specific|nova-pro|5",
+  "instr": "specific",
+  "model": "nova-pro",
+  "scenario": "S21"
+ },
+ "C21": {
+  "run_key": "B|S16|-|specific|claude-opus-5.5|4",
+  "instr": "specific",
+  "model": "claude-opus-5.5",
+  "scenario": "S16"
+ },
+ "C22": {
+  "run_key": "B|S13|-|orwell|claude-opus-5.5|5",
+  "instr": "orwell",
+  "model": "claude-opus-5.5",
+  "scenario": "S13"
+ },
+ "C23": {
+  "run_key": "B|S11|-|specific|qwen3-32b|2",
+  "instr": "specific",
+  "model": "qwen3-32b",
+  "scenario": "S11"
+ },
+ "C24": {
+  "run_key": "B|S22|-|orwell|qwen3-32b|5",
+  "instr": "orwell",
+  "model": "qwen3-32b",
+  "scenario": "S22"
+ },
+ "C25": {
+  "run_key": "B|S13|-|orwell|claude-sonnet-4.6|4",
+  "instr": "orwell",
+  "model": "claude-sonnet-4.6",
+  "scenario": "S13"
+ },
+ "C26": {
+  "run_key": "B|S21|-|clearer|nova-lite|2",
+  "instr": "clearer",
+  "model": "nova-lite",
+  "scenario": "S21"
+ },
+ "C27": {
+  "run_key": "B|S08|-|orwell|claude-haiku-5.5|2",
+  "instr": "orwell",
+  "model": "claude-haiku-5.5",
+  "scenario": "S08"
+ },
+ "C28": {
+  "run_key": "B|S06|-|clearer|claude-haiku-5.5|4",
+  "instr": "clearer",
+  "model": "claude-haiku-5.5",
+  "scenario": "S06"
+ },
+ "C29": {
+  "run_key": "B|S24|-|specific|claude-sonnet-5.5|1",
+  "instr": "specific",
+  "model": "claude-sonnet-5.5",
+  "scenario": "S24"
+ },
+ "C30": {
+  "run_key": "B|S06|-|orwell|qwen3-32b|2",
+  "instr": "orwell",
+  "model": "qwen3-32b",
+  "scenario": "S06"
+ },
+ "C31": {
+  "run_key": "B|S21|-|clearer|claude-sonnet-4.6|2",
+  "instr": "clearer",
+  "model": "claude-sonnet-4.6",
+  "scenario": "S21"
+ },
+ "C32": {
+  "run_key": "B|S08|-|clearer|claude-sonnet-4.6|5",
+  "instr": "clearer",
+  "model": "claude-sonnet-4.6",
+  "scenario": "S08"
+ },
+ "C33": {
+  "run_key": "B|S24|-|orwell|claude-haiku-5.5|3",
+  "instr": "orwell",
+  "model": "claude-haiku-5.5",
+  "scenario": "S24"
+ },
+ "C34": {
+  "run_key": "B|S14|-|orwell|claude-sonnet-5.5|4",
+  "instr": "orwell",
+  "model": "claude-sonnet-5.5",
+  "scenario": "S14"
+ },
+ "C35": {
+  "run_key": "B|S20|-|specific|claude-sonnet-4.6|2",
+  "instr": "specific",
+  "model": "claude-sonnet-4.6",
+  "scenario": "S20"
+ },
+ "C36": {
+  "run_key": "B|S09|-|orwell|nova-pro|4",
+  "instr": "orwell",
+  "model": "nova-pro",
+  "scenario": "S09"
+ },
+ "C37": {
+  "run_key": "B|S01|-|specific|claude-haiku-5.5|1",
+  "instr": "specific",
+  "model": "claude-haiku-5.5",
+  "scenario": "S01"
+ },
+ "C38": {
+  "run_key": "B|S10|-|specific|nova-lite|5",
+  "instr": "specific",
+  "model": "nova-lite",
+  "scenario": "S10"
+ },
+ "C39": {
+  "run_key": "B|S07|-|clearer|claude-sonnet-5.5|1",
+  "instr": "clearer",
+  "model": "claude-sonnet-5.5",
+  "scenario": "S07"
+ },
+ "C40": {
+  "run_key": "B|S02|-|clearer|nova-lite|1",
+  "instr": "clearer",
+  "model": "nova-lite",
+  "scenario": "S02"
+ },
+ "C41": {
+  "run_key": "B|S21|-|clearer|qwen3-32b|5",
+  "instr": "clearer",
+  "model": "qwen3-32b",
+  "scenario": "S21"
+ },
+ "C42": {
+  "run_key": "B|S12|-|clearer|claude-sonnet-5.5|4",
+  "instr": "clearer",
+  "model": "claude-sonnet-5.5",
+  "scenario": "S12"
+ },
+ "C43": {
+  "run_key": "B|S12|-|orwell|claude-opus-5.5|5",
+  "instr": "orwell",
+  "model": "claude-opus-5.5",
+  "scenario": "S12"
+ },
+ "C44": {
+  "run_key": "B|S13|-|specific|claude-sonnet-4.6|5",
+  "instr": "specific",
+  "model": "claude-sonnet-4.6",
+  "scenario": "S13"
+ },
+ "C45": {
+  "run_key": "B|S11|-|specific|qwen3-32b|5",
+  "instr": "specific",
+  "model": "qwen3-32b",
+  "scenario": "S11"
+ },
+ "C46": {
+  "run_key": "B|S14|-|clearer|claude-haiku-5.5|5",
+  "instr": "clearer",
+  "model": "claude-haiku-5.5",
+  "scenario": "S14"
+ },
+ "C47": {
+  "run_key": "B|S08|-|orwell|nova-lite|2",
+  "instr": "orwell",
+  "model": "nova-lite",
+  "scenario": "S08"
+ },
+ "C48": {
+  "run_key": "B|S23|-|orwell|claude-sonnet-5.5|4",
+  "instr": "orwell",
+  "model": "claude-sonnet-5.5",
+  "scenario": "S23"
+ },
+ "C49": {
+  "run_key": "B|S10|-|specific|nova-lite|4",
+  "instr": "specific",
+  "model": "nova-lite",
+  "scenario": "S10"
+ },
+ "C50": {
+  "run_key": "B|S16|-|specific|claude-sonnet-4.6|1",
+  "instr": "specific",
+  "model": "claude-sonnet-4.6",
+  "scenario": "S16"
+ },
+ "C51": {
+  "run_key": "B|S18|-|specific|claude-opus-5.5|5",
+  "instr": "specific",
+  "model": "claude-opus-5.5",
+  "scenario": "S18"
+ },
+ "C52": {
+  "run_key": "B|S16|-|specific|nova-pro|5",
+  "instr": "specific",
+  "model": "nova-pro",
+  "scenario": "S16"
+ },
+ "C53": {
+  "run_key": "B|S15|-|specific|claude-sonnet-5.5|1",
+  "instr": "specific",
+  "model": "claude-sonnet-5.5",
+  "scenario": "S15"
+ },
+ "C54": {
+  "run_key": "B|S10|-|clearer|claude-opus-5.5|4",
+  "instr": "clearer",
+  "model": "claude-opus-5.5",
+  "scenario": "S10"
+ },
+ "C55": {
+  "run_key": "B|S16|-|clearer|claude-sonnet-5.5|3",
+  "instr": "clearer",
+  "model": "claude-sonnet-5.5",
+  "scenario": "S16"
+ },
+ "C56": {
+  "run_key": "B|S22|-|clearer|nova-pro|1",
+  "instr": "clearer",
+  "model": "nova-pro",
+  "scenario": "S22"
+ },
+ "C57": {
+  "run_key": "B|S04|-|specific|claude-opus-5.5|2",
+  "instr": "specific",
+  "model": "claude-opus-5.5",
+  "scenario": "S04"
+ },
+ "C58": {
+  "run_key": "B|S23|-|orwell|nova-pro|5",
+  "instr": "orwell",
+  "model": "nova-pro",
+  "scenario": "S23"
+ },
+ "C59": {
+  "run_key": "B|S16|-|clearer|nova-pro|1",
+  "instr": "clearer",
+  "model": "nova-pro",
+  "scenario": "S16"
+ },
+ "C60": {
+  "run_key": "B|S03|-|orwell|claude-sonnet-4.6|1",
+  "instr": "orwell",
+  "model": "claude-sonnet-4.6",
+  "scenario": "S03"
+ }
+}

@@ -1,0 +1,393 @@
+key,exp,scenario,brief,instr,model,vendor,rep,words,lex_author,lex_ai_literature,lex_business,lex_ai_practitioner,lex_total,lex_per100,lex_core_per100,specifics,specifics_per100,invented,invented_any,invented_examples,placeholders,questions,asks,prefab_rate,prefab_n
+A|P1|specific|plain|claude-opus-5.5|1,A,P1,specific,plain,claude-opus-5.5,Anthropic,1,126,0,0,0,0,0,0.0,0.0,11,8.73015873015873,0,0,,1,0,0,0.07207207207207207,8
+B|P1|-|clearer|claude-opus-5.5|1,B,P1,-,clearer,claude-opus-5.5,Anthropic,1,127,1,0,0,0,1,0.7874015748031497,0.7874015748031497,2,1.5748031496062993,2,1,60%; 85%,0,0,0,0.05454545454545454,6
+A|P1|vague|plain|claude-opus-5.5|1,A,P1,vague,plain,claude-opus-5.5,Anthropic,1,110,0,0,1,0,1,0.9090909090909091,0.9090909090909091,0,0.0,0,0,,9,0,0,0.1111111111111111,11
+A|P1|vague|plain|claude-opus-5.5|2,A,P1,vague,plain,claude-opus-5.5,Anthropic,2,126,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,11,0,0,0.07627118644067797,9
+A|P1|vague|avoid|claude-opus-5.5|1,A,P1,vague,avoid,claude-opus-5.5,Anthropic,1,123,0,0,0,0,0,0.0,0.0,1,0.8130081300813008,1,1,next month,13,0,0,0.11304347826086956,13
+A|P1|specific|avoid|claude-opus-5.5|1,A,P1,specific,avoid,claude-opus-5.5,Anthropic,1,78,0,0,0,0,0,0.0,0.0,11,14.102564102564102,0,0,,1,0,0,0.06349206349206349,4
+B|P1|-|specific|claude-opus-5.5|1,B,P1,-,specific,claude-opus-5.5,Anthropic,1,181,0,0,0,0,0,0.0,0.0,11,6.077348066298343,11,1,45%; 80%; Q3; 45%; 80%; Q3,0,0,0,0.059602649006622516,9
+B|P1|-|orwell|claude-opus-5.5|1,B,P1,-,orwell,claude-opus-5.5,Anthropic,1,109,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,3,1,0.13131313131313133,13
+B|P1|-|clearer|claude-opus-5.5|2,B,P1,-,clearer,claude-opus-5.5,Anthropic,2,114,1,0,0,0,1,0.8771929824561403,0.8771929824561403,0,0.0,0,0,,0,0,0,0.09574468085106383,9
+A|P1|specific|plain|claude-opus-5.5|2,A,P1,specific,plain,claude-opus-5.5,Anthropic,2,90,0,0,0,0,0,0.0,0.0,9,10.0,0,0,,1,0,0,0.06944444444444445,5
+A|P1|vague|plain|claude-sonnet-5.5|1,A,P1,vague,plain,claude-sonnet-5.5,Anthropic,1,136,0,0,1,0,1,0.7352941176470589,0.7352941176470589,2,1.4705882352941178,2,1,next month; 90,3,0,0,0.07936507936507936,10
+A|P1|specific|plain|claude-sonnet-5.5|1,A,P1,specific,plain,claude-sonnet-5.5,Anthropic,1,73,0,0,0,0,0,0.0,0.0,9,12.32876712328767,0,0,,1,0,0,0.06666666666666667,4
+A|P1|specific|avoid|claude-opus-5.5|2,A,P1,specific,avoid,claude-opus-5.5,Anthropic,2,88,0,0,0,0,0,0.0,0.0,9,10.227272727272727,0,0,,1,0,0,0.06756756756756757,5
+A|P1|specific|avoid|claude-sonnet-5.5|1,A,P1,specific,avoid,claude-sonnet-5.5,Anthropic,1,74,0,0,0,0,0,0.0,0.0,9,12.162162162162161,0,0,,1,0,0,0.06896551724137931,4
+A|P1|vague|avoid|claude-opus-5.5|2,A,P1,vague,avoid,claude-opus-5.5,Anthropic,2,126,0,0,0,0,0,0.0,0.0,1,0.7936507936507936,1,1,next month,10,0,0,0.09166666666666666,11
+B|P1|-|specific|claude-opus-5.5|2,B,P1,-,specific,claude-opus-5.5,Anthropic,2,188,0,0,0,0,0,0.0,0.0,9,4.787234042553192,9,1,45%; 80%; Q3; 15; 45%; 80%,0,0,0,0.10559006211180125,17
+A|P1|vague|avoid|claude-sonnet-5.5|1,A,P1,vague,avoid,claude-sonnet-5.5,Anthropic,1,158,0,0,0,0,0,0.0,0.0,5,3.1645569620253164,5,1,3; March; next month; Tuesday; Friday,1,0,0,0.046052631578947366,7
+B|P1|-|clearer|claude-sonnet-5.5|1,B,P1,-,clearer,claude-sonnet-5.5,Anthropic,1,107,1,0,0,0,1,0.9345794392523364,0.9345794392523364,0,0.0,0,0,,0,0,0,0.17777777777777778,16
+B|P1|-|orwell|claude-opus-5.5|2,B,P1,-,orwell,claude-opus-5.5,Anthropic,2,113,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,3,1,0.19801980198019803,20
+A|P1|specific|avoid|claude-sonnet-5.5|2,A,P1,specific,avoid,claude-sonnet-5.5,Anthropic,2,70,0,0,0,0,0,0.0,0.0,9,12.857142857142858,0,0,,1,0,0,0.07547169811320754,4
+A|P1|specific|plain|claude-sonnet-5.5|2,A,P1,specific,plain,claude-sonnet-5.5,Anthropic,2,87,0,0,0,0,0,0.0,0.0,11,12.64367816091954,0,0,,1,0,0,0.1,7
+B|P1|-|specific|claude-sonnet-5.5|1,B,P1,-,specific,claude-sonnet-5.5,Anthropic,1,136,0,0,0,0,0,0.0,0.0,4,2.9411764705882355,4,1,60%; 85%; Q3; 90,0,0,0,0.12,15
+A|P1|vague|plain|claude-sonnet-5.5|2,A,P1,vague,plain,claude-sonnet-5.5,Anthropic,2,151,0,0,0,0,0,0.0,0.0,2,1.3245033112582782,2,1,Next Month; 90,5,0,0,0.1347517730496454,19
+A|P1|vague|avoid|claude-sonnet-5.5|2,A,P1,vague,avoid,claude-sonnet-5.5,Anthropic,2,140,0,0,0,0,0,0.0,0.0,7,5.0,7,1,3; March; next month; Wednesday; 3; March,1,0,0,0.0390625,5
+A|P1|specific|plain|claude-haiku-5.5|1,A,P1,specific,plain,claude-haiku-5.5,Anthropic,1,69,0,0,0,0,0,0.0,0.0,9,13.043478260869565,0,0,,1,0,0,0.05172413793103448,3
+A|P1|vague|plain|claude-haiku-5.5|1,A,P1,vague,plain,claude-haiku-5.5,Anthropic,1,116,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,11,0,0,0.16363636363636364,18
+A|P1|specific|avoid|claude-haiku-5.5|1,A,P1,specific,avoid,claude-haiku-5.5,Anthropic,1,83,0,0,0,0,0,0.0,0.0,9,10.843373493975903,0,0,,1,0,0,0.09722222222222222,7
+B|P1|-|orwell|claude-sonnet-5.5|1,B,P1,-,orwell,claude-sonnet-5.5,Anthropic,1,37,1,0,0,0,1,2.7027027027027026,2.7027027027027026,0,0.0,0,0,,0,1,1,0.058823529411764705,2
+B|P1|-|clearer|claude-sonnet-5.5|2,B,P1,-,clearer,claude-sonnet-5.5,Anthropic,2,113,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.09278350515463918,9
+B|P1|-|specific|claude-sonnet-5.5|2,B,P1,-,specific,claude-sonnet-5.5,Anthropic,2,150,0,0,0,0,0,0.0,0.0,3,2.0,3,1,60%; 85%; Q3,0,3,1,0.15267175572519084,20
+A|P1|vague|avoid|claude-haiku-5.5|1,A,P1,vague,avoid,claude-haiku-5.5,Anthropic,1,104,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,11,0,0,0.12,12
+B|P1|-|clearer|claude-haiku-5.5|1,B,P1,-,clearer,claude-haiku-5.5,Anthropic,1,76,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.16393442622950818,10
+B|P1|-|specific|claude-haiku-5.5|1,B,P1,-,specific,claude-haiku-5.5,Anthropic,1,56,0,0,0,0,0,0.0,0.0,3,5.357142857142857,3,1,45%; 70%; Q3,0,0,0,0.16666666666666666,8
+B|P1|-|orwell|claude-sonnet-5.5|2,B,P1,-,orwell,claude-sonnet-5.5,Anthropic,2,26,1,0,0,0,1,3.8461538461538463,3.8461538461538463,0,0.0,0,0,,0,1,1,0.18181818181818182,4
+A|P1|specific|plain|claude-haiku-5.5|2,A,P1,specific,plain,claude-haiku-5.5,Anthropic,2,84,0,0,0,0,0,0.0,0.0,11,13.095238095238095,0,0,,1,0,0,0.07352941176470588,5
+A|P1|vague|plain|claude-haiku-5.5|2,A,P1,vague,plain,claude-haiku-5.5,Anthropic,2,120,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,6,0,0,0.1391304347826087,16
+B|P1|-|clearer|claude-haiku-5.5|2,B,P1,-,clearer,claude-haiku-5.5,Anthropic,2,61,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.20833333333333334,10
+A|P1|specific|avoid|claude-haiku-5.5|2,A,P1,specific,avoid,claude-haiku-5.5,Anthropic,2,81,0,0,0,0,0,0.0,0.0,11,13.580246913580247,0,0,,1,0,0,0.07246376811594203,5
+B|P1|-|orwell|claude-haiku-5.5|1,B,P1,-,orwell,claude-haiku-5.5,Anthropic,1,68,1,0,0,0,1,1.4705882352941178,1.4705882352941178,0,0.0,0,0,,0,2,1,0.016129032258064516,1
+B|P1|-|specific|claude-haiku-5.5|2,B,P1,-,specific,claude-haiku-5.5,Anthropic,2,105,0,0,0,0,0,0.0,0.0,4,3.8095238095238093,4,1,60%; 85%; Q3; 24,0,0,0,0.1978021978021978,18
+A|P1|vague|avoid|claude-haiku-5.5|2,A,P1,vague,avoid,claude-haiku-5.5,Anthropic,2,108,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,10,0,0,0.1262135922330097,13
+A|P1|vague|plain|claude-sonnet-4.6|1,A,P1,vague,plain,claude-sonnet-4.6,Anthropic,1,149,0,0,1,0,1,0.6711409395973155,0.6711409395973155,0,0.0,0,0,,5,0,0,0.2463768115942029,34
+A|P1|specific|plain|claude-sonnet-4.6|1,A,P1,specific,plain,claude-sonnet-4.6,Anthropic,1,100,0,0,0,0,0,0.0,0.0,11,11.0,0,0,,0,0,0,0.08235294117647059,7
+B|P1|-|orwell|claude-haiku-5.5|2,B,P1,-,orwell,claude-haiku-5.5,Anthropic,2,1,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P1|specific|avoid|claude-sonnet-4.6|1,A,P1,specific,avoid,claude-sonnet-4.6,Anthropic,1,94,0,0,0,0,0,0.0,0.0,16,17.02127659574468,3,1,Tuesday; Tuesday; Tuesday,0,0,0,0.02702702702702703,2
+B|P1|-|specific|claude-sonnet-4.6|1,B,P1,-,specific,claude-sonnet-4.6,Anthropic,1,84,0,0,0,0,0,0.0,0.0,4,4.761904761904762,4,1,25%; next quarter; 25%; next quarter,0,0,0,0.1044776119402985,7
+A|P1|vague|avoid|claude-sonnet-4.6|1,A,P1,vague,avoid,claude-sonnet-4.6,Anthropic,1,147,0,0,0,0,0,0.0,0.0,1,0.6802721088435374,1,1,next month,4,0,0,0.20567375886524822,29
+B|P1|-|orwell|claude-sonnet-4.6|1,B,P1,-,orwell,claude-sonnet-4.6,Anthropic,1,70,1,0,0,0,1,1.4285714285714286,1.4285714285714286,0,0.0,0,0,,0,8,1,0.1694915254237288,10
+A|P1|vague|plain|claude-sonnet-4.6|2,A,P1,vague,plain,claude-sonnet-4.6,Anthropic,2,146,0,0,2,0,2,1.36986301369863,1.36986301369863,0,0.0,0,0,,4,0,0,0.23134328358208955,31
+B|P1|-|clearer|claude-sonnet-4.6|1,B,P1,-,clearer,claude-sonnet-4.6,Anthropic,1,48,1,0,0,0,1,2.0833333333333335,2.0833333333333335,0,0.0,0,0,,0,0,0,0.17777777777777778,8
+A|P1|specific|plain|claude-sonnet-4.6|2,A,P1,specific,plain,claude-sonnet-4.6,Anthropic,2,113,0,0,0,0,0,0.0,0.0,11,9.734513274336283,0,0,,1,0,0,0.10309278350515463,10
+B|P1|-|specific|claude-sonnet-4.6|2,B,P1,-,specific,claude-sonnet-4.6,Anthropic,2,83,0,0,0,0,0,0.0,0.0,4,4.819277108433735,4,1,25%; Q3; 25%; Q3,0,0,0,0.14285714285714285,10
+A|P1|specific|avoid|claude-sonnet-4.6|2,A,P1,specific,avoid,claude-sonnet-4.6,Anthropic,2,101,0,0,0,0,0,0.0,0.0,16,15.841584158415841,3,1,Tuesday; Tuesday; Tuesday,0,0,0,0.038461538461538464,3
+B|P1|-|clearer|claude-sonnet-4.6|2,B,P1,-,clearer,claude-sonnet-4.6,Anthropic,2,85,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.11594202898550725,8
+A|P1|vague|plain|nova-pro|1,A,P1,vague,plain,nova-pro,Amazon,1,37,0,0,0,2,2,5.405405405405405,0.0,0,0.0,0,0,,1,0,0,0.08571428571428572,3
+A|P1|vague|avoid|nova-pro|1,A,P1,vague,avoid,nova-pro,Amazon,1,52,0,0,0,0,0,0.0,0.0,1,1.9230769230769231,1,1,next week,1,0,0,0.10416666666666667,5
+A|P1|vague|avoid|claude-sonnet-4.6|2,A,P1,vague,avoid,claude-sonnet-4.6,Anthropic,2,149,0,0,0,0,0,0.0,0.0,1,0.6711409395973155,1,1,next month,8,0,0,0.20714285714285716,29
+A|P1|specific|plain|nova-pro|1,A,P1,specific,plain,nova-pro,Amazon,1,51,0,0,0,0,0,0.0,0.0,9,17.647058823529413,0,0,,0,1,1,0.047619047619047616,2
+B|P1|-|orwell|claude-sonnet-4.6|2,B,P1,-,orwell,claude-sonnet-4.6,Anthropic,2,97,1,0,0,0,1,1.0309278350515463,1.0309278350515463,0,0.0,0,0,,0,6,1,0.1686746987951807,14
+B|P1|-|clearer|nova-pro|1,B,P1,-,clearer,nova-pro,Amazon,1,11,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P1|-|specific|nova-pro|1,B,P1,-,specific,nova-pro,Amazon,1,39,0,0,0,1,1,2.5641025641025643,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P1|vague|plain|nova-pro|2,A,P1,vague,plain,nova-pro,Amazon,2,43,0,0,1,2,3,6.976744186046512,2.3255813953488373,1,2.3255813953488373,1,1,next month,1,0,0,0.2682926829268293,11
+B|P1|-|clearer|nova-pro|2,B,P1,-,clearer,nova-pro,Amazon,2,11,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P1|specific|plain|nova-pro|2,A,P1,specific,plain,nova-pro,Amazon,2,60,0,0,0,0,0,0.0,0.0,9,15.0,0,0,,1,0,0,0.04,2
+A|P1|specific|avoid|nova-pro|2,A,P1,specific,avoid,nova-pro,Amazon,2,56,0,0,0,0,0,0.0,0.0,9,16.071428571428573,0,0,,0,0,0,0.06666666666666667,3
+A|P1|vague|avoid|nova-pro|2,A,P1,vague,avoid,nova-pro,Amazon,2,58,0,0,0,0,0,0.0,0.0,1,1.7241379310344827,1,1,next week,1,0,0,0.1509433962264151,8
+A|P1|specific|avoid|nova-pro|1,A,P1,specific,avoid,nova-pro,Amazon,1,58,0,0,0,0,0,0.0,0.0,9,15.517241379310345,0,0,,0,0,0,0.06382978723404255,3
+B|P1|-|specific|nova-pro|2,B,P1,-,specific,nova-pro,Amazon,2,21,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P1|-|clearer|nova-lite|1,B,P1,-,clearer,nova-lite,Amazon,1,11,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P1|-|orwell|nova-pro|1,B,P1,-,orwell,nova-pro,Amazon,1,85,1,0,0,0,1,1.1764705882352942,1.1764705882352942,0,0.0,0,0,,0,5,1,0.33783783783783783,25
+A|P1|vague|plain|nova-lite|1,A,P1,vague,plain,nova-lite,Amazon,1,83,0,0,1,2,3,3.6144578313253013,1.2048192771084338,1,1.2048192771084338,1,1,next week,1,0,0,0.11538461538461539,9
+B|P1|-|specific|nova-lite|1,B,P1,-,specific,nova-lite,Amazon,1,13,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P1|-|orwell|nova-pro|2,B,P1,-,orwell,nova-pro,Amazon,2,84,1,0,0,0,1,1.1904761904761905,1.1904761904761905,0,0.0,0,0,,0,4,1,0.273972602739726,20
+A|P1|vague|avoid|nova-lite|1,A,P1,vague,avoid,nova-lite,Amazon,1,96,0,0,0,1,1,1.0416666666666667,0.0,5,5.208333333333333,5,1,next week; Next week; 10; 12; Wednesday,1,0,0,0.13793103448275862,12
+A|P1|specific|plain|nova-lite|1,A,P1,specific,plain,nova-lite,Amazon,1,72,0,0,0,0,0,0.0,0.0,9,12.5,0,0,,1,0,0,0.06557377049180328,4
+A|P1|specific|avoid|nova-lite|1,A,P1,specific,avoid,nova-lite,Amazon,1,100,0,0,0,0,0,0.0,0.0,9,9.0,0,0,,0,0,0,0.024096385542168676,2
+B|P1|-|orwell|nova-lite|1,B,P1,-,orwell,nova-lite,Amazon,1,86,1,0,0,0,1,1.1627906976744187,1.1627906976744187,0,0.0,0,0,,0,4,1,0.1643835616438356,12
+A|P1|vague|plain|nova-lite|2,A,P1,vague,plain,nova-lite,Amazon,2,74,0,0,1,2,3,4.054054054054054,1.3513513513513513,1,1.3513513513513513,1,1,next month,1,0,0,0.15492957746478872,11
+B|P1|-|clearer|nova-lite|2,B,P1,-,clearer,nova-lite,Amazon,2,11,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P1|specific|plain|nova-lite|2,A,P1,specific,plain,nova-lite,Amazon,2,65,0,0,1,0,1,1.5384615384615385,1.5384615384615385,8,12.307692307692308,0,0,,1,0,0,0.14545454545454545,8
+A|P1|vague|avoid|nova-lite|2,A,P1,vague,avoid,nova-lite,Amazon,2,82,0,0,1,0,1,1.2195121951219512,1.2195121951219512,0,0.0,0,0,,1,0,0,0.20833333333333334,15
+A|P1|specific|avoid|nova-lite|2,A,P1,specific,avoid,nova-lite,Amazon,2,75,0,0,0,0,0,0.0,0.0,9,12.0,0,0,,0,0,0,0.078125,5
+B|P1|-|specific|nova-lite|2,B,P1,-,specific,nova-lite,Amazon,2,75,0,0,0,1,1,1.3333333333333333,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P1|-|clearer|qwen3-32b|1,B,P1,-,clearer,qwen3-32b,Alibaba,1,9,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P1|-|orwell|nova-lite|2,B,P1,-,orwell,nova-lite,Amazon,2,90,5,0,0,0,5,5.555555555555555,5.555555555555555,0,0.0,0,0,,0,3,1,0.26666666666666666,20
+B|P1|-|specific|qwen3-32b|1,B,P1,-,specific,qwen3-32b,Alibaba,1,14,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P1|specific|plain|qwen3-32b|1,A,P1,specific,plain,qwen3-32b,Alibaba,1,100,0,0,2,1,3,3.0,2.0,9,9.0,0,0,,1,0,0,0.07865168539325842,7
+A|P1|vague|plain|qwen3-32b|1,A,P1,vague,plain,qwen3-32b,Alibaba,1,81,0,0,0,1,1,1.2345679012345678,0.0,1,1.2345679012345678,1,1,next week,1,0,0,0.13333333333333333,10
+A|P1|specific|avoid|qwen3-32b|1,A,P1,specific,avoid,qwen3-32b,Alibaba,1,90,0,0,1,0,1,1.1111111111111112,1.1111111111111112,9,10.0,0,0,,1,0,0,0.10256410256410256,8
+A|P1|vague|avoid|qwen3-32b|1,A,P1,vague,avoid,qwen3-32b,Alibaba,1,96,0,0,0,0,0,0.0,0.0,1,1.0416666666666667,1,1,this month,1,0,0,0.18681318681318682,17
+B|P1|-|clearer|qwen3-32b|2,B,P1,-,clearer,qwen3-32b,Alibaba,2,9,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P1|specific|plain|qwen3-32b|2,A,P1,specific,plain,qwen3-32b,Alibaba,2,103,0,0,1,0,1,0.970873786407767,0.970873786407767,9,8.737864077669903,0,0,,1,0,0,0.15730337078651685,14
+B|P1|-|specific|qwen3-32b|2,B,P1,-,specific,qwen3-32b,Alibaba,2,21,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P1|-|orwell|qwen3-32b|1,B,P1,-,orwell,qwen3-32b,Alibaba,1,91,4,0,0,0,4,4.395604395604396,4.395604395604396,0,0.0,0,0,,0,2,1,0.07407407407407407,6
+A|P1|vague|plain|qwen3-32b|2,A,P1,vague,plain,qwen3-32b,Alibaba,2,97,0,0,2,1,3,3.0927835051546393,2.0618556701030926,1,1.0309278350515463,1,1,next month,1,0,0,0.17582417582417584,16
+A|P1|specific|avoid|qwen3-32b|2,A,P1,specific,avoid,qwen3-32b,Alibaba,2,86,0,0,1,0,1,1.1627906976744187,1.1627906976744187,9,10.465116279069768,0,0,,1,0,0,0.11267605633802817,8
+A|P1|vague|avoid|qwen3-32b|2,A,P1,vague,avoid,qwen3-32b,Alibaba,2,90,0,0,0,0,0,0.0,0.0,4,4.444444444444445,4,1,next week; 30; 45; Thursday,1,0,0,0.20238095238095238,17
+B|P1|-|orwell|qwen3-32b|2,B,P1,-,orwell,qwen3-32b,Alibaba,2,114,3,0,1,0,4,3.508771929824561,3.508771929824561,0,0.0,0,0,,0,5,1,0.27722772277227725,28
+B|P2|-|clearer|claude-opus-5.5|1,B,P2,-,clearer,claude-opus-5.5,Anthropic,1,121,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,4,0,0,0.11304347826086956,13
+A|P2|vague|plain|claude-opus-5.5|1,A,P2,vague,plain,claude-opus-5.5,Anthropic,1,116,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,13,0,0,0.07,7
+B|P2|-|specific|claude-opus-5.5|1,B,P2,-,specific,claude-opus-5.5,Anthropic,1,133,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,4,0,0,0.1171875,15
+A|P2|vague|avoid|claude-opus-5.5|1,A,P2,vague,avoid,claude-opus-5.5,Anthropic,1,127,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,23,0,0,0.05357142857142857,6
+A|P2|vague|plain|claude-opus-5.5|2,A,P2,vague,plain,claude-opus-5.5,Anthropic,2,108,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,17,0,0,0.07368421052631578,7
+B|P2|-|orwell|claude-opus-5.5|1,B,P2,-,orwell,claude-opus-5.5,Anthropic,1,115,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,4,1,0.12871287128712872,13
+A|P2|specific|plain|claude-opus-5.5|1,A,P2,specific,plain,claude-opus-5.5,Anthropic,1,128,0,0,0,0,0,0.0,0.0,7,5.46875,0,0,,0,1,1,0.06086956521739131,7
+A|P2|specific|avoid|claude-opus-5.5|1,A,P2,specific,avoid,claude-opus-5.5,Anthropic,1,87,0,0,0,0,0,0.0,0.0,6,6.896551724137931,0,0,,1,1,1,0.02631578947368421,2
+B|P2|-|clearer|claude-opus-5.5|2,B,P2,-,clearer,claude-opus-5.5,Anthropic,2,91,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,3,0,0,0.09302325581395349,8
+B|P2|-|specific|claude-opus-5.5|2,B,P2,-,specific,claude-opus-5.5,Anthropic,2,161,0,0,0,0,0,0.0,0.0,5,3.1055900621118013,5,1,70%; March; 15; February; 20,6,0,0,0.13194444444444445,19
+A|P2|specific|plain|claude-opus-5.5|2,A,P2,specific,plain,claude-opus-5.5,Anthropic,2,123,0,0,0,0,0,0.0,0.0,5,4.065040650406504,0,0,,2,0,0,0.018018018018018018,2
+A|P2|specific|plain|claude-sonnet-5.5|1,A,P2,specific,plain,claude-sonnet-5.5,Anthropic,1,149,0,0,0,0,0,0.0,0.0,6,4.026845637583893,0,0,,0,0,0,0.0,0
+A|P2|vague|avoid|claude-opus-5.5|2,A,P2,vague,avoid,claude-opus-5.5,Anthropic,2,143,0,0,0,0,0,0.0,0.0,3,2.097902097902098,3,1,"June; July; £15,000",12,0,0,0.13740458015267176,18
+A|P2|specific|avoid|claude-sonnet-5.5|1,A,P2,specific,avoid,claude-sonnet-5.5,Anthropic,1,144,0,0,0,0,0,0.0,0.0,4,2.7777777777777777,0,0,,0,1,1,0.03759398496240601,5
+A|P2|vague|plain|claude-sonnet-5.5|1,A,P2,vague,plain,claude-sonnet-5.5,Anthropic,1,149,0,0,0,0,0,0.0,0.0,3,2.0134228187919465,3,1,2; 70%; next month,10,0,0,0.08208955223880597,11
+B|P2|-|orwell|claude-opus-5.5|2,B,P2,-,orwell,claude-opus-5.5,Anthropic,2,97,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,3,1,0.17857142857142858,15
+A|P2|specific|avoid|claude-opus-5.5|2,A,P2,specific,avoid,claude-opus-5.5,Anthropic,2,143,0,0,0,0,0,0.0,0.0,9,6.293706293706293,0,0,,1,1,1,0.02459016393442623,3
+B|P2|-|clearer|claude-sonnet-5.5|1,B,P2,-,clearer,claude-sonnet-5.5,Anthropic,1,118,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,1,0,0,0.1559633027522936,17
+A|P2|vague|avoid|claude-sonnet-5.5|1,A,P2,vague,avoid,claude-sonnet-5.5,Anthropic,1,165,0,0,0,0,0,0.0,0.0,1,0.6060606060606061,1,1,70%,21,0,0,0.0472972972972973,7
+A|P2|specific|plain|claude-sonnet-5.5|2,A,P2,specific,plain,claude-sonnet-5.5,Anthropic,2,130,0,0,0,0,0,0.0,0.0,6,4.615384615384615,0,0,,0,0,0,0.05263157894736842,6
+A|P2|specific|avoid|claude-sonnet-5.5|2,A,P2,specific,avoid,claude-sonnet-5.5,Anthropic,2,137,0,0,0,0,0,0.0,0.0,4,2.9197080291970803,0,0,,0,1,1,0.03937007874015748,5
+B|P2|-|clearer|claude-sonnet-5.5|2,B,P2,-,clearer,claude-sonnet-5.5,Anthropic,2,121,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,2,0,0,0.1651376146788991,18
+B|P2|-|specific|claude-sonnet-5.5|1,B,P2,-,specific,claude-sonnet-5.5,Anthropic,1,170,0,0,0,0,0,0.0,0.0,5,2.9411764705882355,5,1,70%; March; 15; February; 10,6,4,1,0.16312056737588654,23
+A|P2|vague|plain|claude-sonnet-5.5|2,A,P2,vague,plain,claude-sonnet-5.5,Anthropic,2,144,0,0,0,0,0,0.0,0.0,4,2.7777777777777777,4,1,2; 70%; 3%; 3,6,0,0,0.05555555555555555,7
+B|P2|-|orwell|claude-sonnet-5.5|1,B,P2,-,orwell,claude-sonnet-5.5,Anthropic,1,98,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,2,1,0.18604651162790697,16
+A|P2|specific|plain|claude-haiku-5.5|1,A,P2,specific,plain,claude-haiku-5.5,Anthropic,1,67,0,0,0,0,0,0.0,0.0,4,5.970149253731344,0,0,,1,1,1,0.03278688524590164,2
+A|P2|vague|plain|claude-haiku-5.5|1,A,P2,vague,plain,claude-haiku-5.5,Anthropic,1,89,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,19,0,0,0.05194805194805195,4
+B|P2|-|clearer|claude-haiku-5.5|1,B,P2,-,clearer,claude-haiku-5.5,Anthropic,1,73,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.16129032258064516,10
+B|P2|-|orwell|claude-sonnet-5.5|2,B,P2,-,orwell,claude-sonnet-5.5,Anthropic,2,203,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,8,1,0.1111111111111111,19
+B|P2|-|specific|claude-haiku-5.5|1,B,P2,-,specific,claude-haiku-5.5,Anthropic,1,76,0,0,0,0,0,0.0,0.0,1,1.3157894736842106,1,1,3,5,0,0,0.2054794520547945,15
+A|P2|vague|avoid|claude-haiku-5.5|1,A,P2,vague,avoid,claude-haiku-5.5,Anthropic,1,98,0,0,0,0,0,0.0,0.0,9,9.183673469387756,9,1,"14; March; 60%; 75%; 2; £84,000",0,0,0,0.04878048780487805,4
+A|P2|specific|avoid|claude-haiku-5.5|1,A,P2,specific,avoid,claude-haiku-5.5,Anthropic,1,65,0,0,0,0,0,0.0,0.0,4,6.153846153846154,0,0,,0,1,1,0.01694915254237288,1
+A|P2|specific|plain|claude-haiku-5.5|2,A,P2,specific,plain,claude-haiku-5.5,Anthropic,2,83,0,0,0,0,0,0.0,0.0,4,4.819277108433735,0,0,,0,0,0,0.013157894736842105,1
+A|P2|vague|plain|claude-haiku-5.5|2,A,P2,vague,plain,claude-haiku-5.5,Anthropic,2,81,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,12,0,0,0.10144927536231885,7
+B|P2|-|orwell|claude-haiku-5.5|1,B,P2,-,orwell,claude-haiku-5.5,Anthropic,1,64,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,4,1,0.06,3
+B|P2|-|clearer|claude-haiku-5.5|2,B,P2,-,clearer,claude-haiku-5.5,Anthropic,2,69,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.2033898305084746,12
+B|P2|-|specific|claude-sonnet-5.5|2,B,P2,-,specific,claude-sonnet-5.5,Anthropic,2,153,0,0,0,0,0,0.0,0.0,5,3.2679738562091503,5,1,80%; 80%; March; 15; end of the month,4,0,0,0.1640625,21
+A|P2|vague|avoid|claude-sonnet-5.5|2,A,P2,vague,avoid,claude-sonnet-5.5,Anthropic,2,99,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,19,0,0,0.10344827586206896,9
+B|P2|-|specific|claude-haiku-5.5|2,B,P2,-,specific,claude-haiku-5.5,Anthropic,2,86,0,0,0,0,0,0.0,0.0,5,5.813953488372093,5,1,1; March; 14; 2; this week,3,0,0,0.2375,19
+A|P2|vague|avoid|claude-haiku-5.5|2,A,P2,vague,avoid,claude-haiku-5.5,Anthropic,2,114,0,0,0,0,0,0.0,0.0,10,8.771929824561404,10,1,14; March; this month; Next month; 2; April,0,0,0,0.0,0
+A|P2|specific|avoid|claude-haiku-5.5|2,A,P2,specific,avoid,claude-haiku-5.5,Anthropic,2,65,0,0,0,0,0,0.0,0.0,4,6.153846153846154,0,0,,0,1,1,0.017241379310344827,1
+B|P2|-|orwell|claude-haiku-5.5|2,B,P2,-,orwell,claude-haiku-5.5,Anthropic,2,71,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,3,1,0.07936507936507936,5
+A|P2|specific|plain|claude-sonnet-4.6|1,A,P2,specific,plain,claude-sonnet-4.6,Anthropic,1,133,0,0,0,0,0,0.0,0.0,6,4.511278195488722,0,0,,0,0,0,0.024193548387096774,3
+A|P2|vague|plain|claude-sonnet-4.6|1,A,P2,vague,plain,claude-sonnet-4.6,Anthropic,1,122,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,10,0,0,0.009009009009009009,1
+A|P2|vague|avoid|claude-sonnet-4.6|1,A,P2,vague,avoid,claude-sonnet-4.6,Anthropic,1,146,0,0,0,0,0,0.0,0.0,3,2.0547945205479454,3,1,14; March; April,0,0,0,0.04929577464788732,7
+A|P2|specific|avoid|claude-sonnet-4.6|1,A,P2,specific,avoid,claude-sonnet-4.6,Anthropic,1,139,0,0,0,0,0,0.0,0.0,9,6.474820143884892,5,1,17; February; April; 14; February,0,0,0,0.023076923076923078,3
+B|P2|-|specific|claude-sonnet-4.6|1,B,P2,-,specific,claude-sonnet-4.6,Anthropic,1,101,0,0,0,0,0,0.0,0.0,3,2.9702970297029703,3,1,Q3; end of week; Q3,0,0,0,0.06382978723404255,6
+B|P2|-|orwell|claude-sonnet-4.6|1,B,P2,-,orwell,claude-sonnet-4.6,Anthropic,1,99,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,7,1,0.1951219512195122,16
+A|P2|vague|plain|claude-sonnet-4.6|2,A,P2,vague,plain,claude-sonnet-4.6,Anthropic,2,124,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,11,0,0,0.017699115044247787,2
+A|P2|specific|avoid|claude-sonnet-4.6|2,A,P2,specific,avoid,claude-sonnet-4.6,Anthropic,2,127,0,0,0,0,0,0.0,0.0,8,6.299212598425197,2,1,14; February,0,0,0,0.025423728813559324,3
+A|P2|specific|plain|claude-sonnet-4.6|2,A,P2,specific,plain,claude-sonnet-4.6,Anthropic,2,136,0,0,0,0,0,0.0,0.0,6,4.411764705882353,2,1,14; February,0,0,0,0.015748031496062992,2
+B|P2|-|orwell|claude-sonnet-4.6|2,B,P2,-,orwell,claude-sonnet-4.6,Anthropic,2,98,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,6,1,0.24691358024691357,20
+A|P2|vague|avoid|claude-sonnet-4.6|2,A,P2,vague,avoid,claude-sonnet-4.6,Anthropic,2,138,0,0,0,0,0,0.0,0.0,8,5.797101449275362,8,1,24; Tuesday; this week; 14; March; Friday,0,0,0,0.05343511450381679,7
+A|P2|vague|plain|nova-pro|1,A,P2,vague,plain,nova-pro,Amazon,1,75,0,0,0,0,0,0.0,0.0,1,1.3333333333333333,1,1,next month,0,0,0,0.0,0
+B|P2|-|clearer|claude-sonnet-4.6|2,B,P2,-,clearer,claude-sonnet-4.6,Anthropic,2,132,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,2,1,1,0.18487394957983194,22
+B|P2|-|specific|claude-sonnet-4.6|2,B,P2,-,specific,claude-sonnet-4.6,Anthropic,2,118,0,0,0,0,0,0.0,0.0,1,0.847457627118644,1,1,next week,0,0,0,0.102803738317757,11
+A|P2|vague|avoid|nova-pro|1,A,P2,vague,avoid,nova-pro,Amazon,1,57,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.12727272727272726,7
+A|P2|specific|plain|nova-pro|1,A,P2,specific,plain,nova-pro,Amazon,1,61,0,0,0,0,0,0.0,0.0,4,6.557377049180328,0,0,,0,0,0,0.0,0
+A|P2|specific|avoid|nova-pro|1,A,P2,specific,avoid,nova-pro,Amazon,1,44,0,0,0,0,0,0.0,0.0,4,9.090909090909092,0,0,,0,0,0,0.0,0
+B|P2|-|clearer|nova-pro|1,B,P2,-,clearer,nova-pro,Amazon,1,15,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P2|-|clearer|claude-sonnet-4.6|1,B,P2,-,clearer,claude-sonnet-4.6,Anthropic,1,149,0,0,1,0,1,0.6711409395973155,0.6711409395973155,0,0.0,0,0,,2,2,1,0.15827338129496402,22
+B|P2|-|specific|nova-pro|1,B,P2,-,specific,nova-pro,Amazon,1,34,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P2|-|clearer|nova-pro|2,B,P2,-,clearer,nova-pro,Amazon,2,15,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P2|vague|avoid|nova-pro|2,A,P2,vague,avoid,nova-pro,Amazon,2,72,0,0,1,0,1,1.3888888888888888,1.3888888888888888,0,0.0,0,0,,0,0,0,0.02857142857142857,2
+A|P2|specific|avoid|nova-pro|2,A,P2,specific,avoid,nova-pro,Amazon,2,44,0,0,0,0,0,0.0,0.0,4,9.090909090909092,0,0,,0,0,0,0.02702702702702703,1
+A|P2|vague|plain|nova-pro|2,A,P2,vague,plain,nova-pro,Amazon,2,58,0,0,0,0,0,0.0,0.0,3,5.172413793103448,3,1,1; 2; Q3,0,0,0,0.018518518518518517,1
+B|P2|-|specific|nova-pro|2,B,P2,-,specific,nova-pro,Amazon,2,31,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P2|specific|plain|nova-pro|2,A,P2,specific,plain,nova-pro,Amazon,2,67,0,0,0,0,0,0.0,0.0,4,5.970149253731344,0,0,,0,0,0,0.01639344262295082,1
+B|P2|-|orwell|nova-pro|2,B,P2,-,orwell,nova-pro,Amazon,2,80,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,4,1,0.3333333333333333,23
+B|P2|-|orwell|nova-pro|1,B,P2,-,orwell,nova-pro,Amazon,1,131,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,3,1,0.25225225225225223,28
+A|P2|vague|plain|nova-lite|1,A,P2,vague,plain,nova-lite,Amazon,1,88,0,0,0,0,0,0.0,0.0,3,3.409090909090909,3,1,75%; 5%; next week,1,0,0,0.03614457831325301,3
+B|P2|-|clearer|nova-lite|1,B,P2,-,clearer,nova-lite,Amazon,1,13,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P2|specific|avoid|nova-lite|1,A,P2,specific,avoid,nova-lite,Amazon,1,58,0,0,0,0,0,0.0,0.0,4,6.896551724137931,0,0,,0,0,0,0.038461538461538464,2
+A|P2|vague|avoid|nova-lite|1,A,P2,vague,avoid,nova-lite,Amazon,1,67,0,0,1,0,1,1.492537313432836,1.492537313432836,0,0.0,0,0,,0,0,0,0.046153846153846156,3
+A|P2|specific|plain|nova-lite|1,A,P2,specific,plain,nova-lite,Amazon,1,69,0,0,0,1,1,1.4492753623188406,0.0,4,5.797101449275362,0,0,,0,0,0,0.031746031746031744,2
+B|P2|-|specific|nova-lite|1,B,P2,-,specific,nova-lite,Amazon,1,17,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P2|-|clearer|nova-lite|2,B,P2,-,clearer,nova-lite,Amazon,2,14,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P2|-|specific|nova-lite|2,B,P2,-,specific,nova-lite,Amazon,2,25,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P2|specific|avoid|nova-lite|2,A,P2,specific,avoid,nova-lite,Amazon,2,52,0,0,0,0,0,0.0,0.0,4,7.6923076923076925,0,0,,0,0,0,0.021739130434782608,1
+A|P2|specific|plain|nova-lite|2,A,P2,specific,plain,nova-lite,Amazon,2,58,0,0,0,0,0,0.0,0.0,4,6.896551724137931,0,0,,0,0,0,0.019230769230769232,1
+A|P2|vague|plain|nova-lite|2,A,P2,vague,plain,nova-lite,Amazon,2,89,0,0,0,0,0,0.0,0.0,2,2.247191011235955,2,1,95%; 88%,3,0,0,0.03571428571428571,3
+A|P2|vague|avoid|nova-lite|2,A,P2,vague,avoid,nova-lite,Amazon,2,77,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,1,0,0,0.06944444444444445,5
+B|P2|-|orwell|nova-lite|1,B,P2,-,orwell,nova-lite,Amazon,1,101,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,6,1,0.0410958904109589,3
+B|P2|-|specific|qwen3-32b|1,B,P2,-,specific,qwen3-32b,Alibaba,1,36,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P2|-|orwell|nova-lite|2,B,P2,-,orwell,nova-lite,Amazon,2,111,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,6,1,0.16923076923076924,11
+B|P2|-|clearer|qwen3-32b|1,B,P2,-,clearer,qwen3-32b,Alibaba,1,16,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P2|vague|plain|qwen3-32b|1,A,P2,vague,plain,qwen3-32b,Alibaba,1,141,0,0,0,0,0,0.0,0.0,10,7.092198581560283,10,1,4; April; 2025; last week; this week; 20,0,0,0,0.007575757575757576,1
+A|P2|specific|avoid|qwen3-32b|1,A,P2,specific,avoid,qwen3-32b,Alibaba,1,90,0,0,0,0,0,0.0,0.0,4,4.444444444444445,0,0,,0,0,0,0.012048192771084338,1
+A|P2|vague|avoid|qwen3-32b|1,A,P2,vague,avoid,qwen3-32b,Alibaba,1,95,0,0,0,0,0,0.0,0.0,3,3.1578947368421053,3,1,75%; next month; June,0,0,0,0.043478260869565216,4
+A|P2|specific|plain|qwen3-32b|1,A,P2,specific,plain,qwen3-32b,Alibaba,1,118,0,0,0,0,0,0.0,0.0,4,3.389830508474576,0,0,,0,1,1,0.018018018018018018,2
+B|P2|-|orwell|qwen3-32b|1,B,P2,-,orwell,qwen3-32b,Alibaba,1,100,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,3,1,0.14285714285714285,13
+B|P2|-|specific|qwen3-32b|2,B,P2,-,specific,qwen3-32b,Alibaba,2,24,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P2|vague|plain|qwen3-32b|2,A,P2,vague,plain,qwen3-32b,Alibaba,2,112,0,0,0,0,0,0.0,0.0,7,6.25,7,1,October; 20; 2024; Q3; 85%; 3%,0,0,0,0.03773584905660377,4
+A|P2|vague|avoid|qwen3-32b|2,A,P2,vague,avoid,qwen3-32b,Alibaba,2,124,0,0,0,0,0,0.0,0.0,6,4.838709677419355,6,1,April; 5; this week; end of the week; June; 1,0,0,0,0.05084745762711865,6
+B|P2|-|clearer|qwen3-32b|2,B,P2,-,clearer,qwen3-32b,Alibaba,2,16,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P2|-|orwell|qwen3-32b|2,B,P2,-,orwell,qwen3-32b,Alibaba,2,128,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,3,1,0.15454545454545454,17
+A|P2|specific|avoid|qwen3-32b|2,A,P2,specific,avoid,qwen3-32b,Alibaba,2,111,0,0,0,0,0,0.0,0.0,7,6.306306306306307,3,1,"5; February; £35,000",0,0,0,0.029411764705882353,3
+A|P2|specific|plain|qwen3-32b|2,A,P2,specific,plain,qwen3-32b,Alibaba,2,127,0,0,0,0,0,0.0,0.0,4,3.1496062992125986,0,0,,0,1,1,0.03361344537815126,4
+A|P3|specific|plain|claude-opus-5.5|1,A,P3,specific,plain,claude-opus-5.5,Anthropic,1,145,0,0,0,0,0,0.0,0.0,4,2.7586206896551726,0,0,,1,0,0,0.06569343065693431,9
+A|P3|vague|plain|claude-opus-5.5|1,A,P3,vague,plain,claude-opus-5.5,Anthropic,1,149,0,0,1,0,1,0.6711409395973155,0.6711409395973155,0,0.0,0,0,,8,0,0,0.04964539007092199,7
+B|P3|-|clearer|claude-opus-5.5|1,B,P3,-,clearer,claude-opus-5.5,Anthropic,1,151,0,0,1,0,1,0.6622516556291391,0.6622516556291391,0,0.0,0,0,,5,0,0,0.13768115942028986,19
+B|P3|-|specific|claude-opus-5.5|1,B,P3,-,specific,claude-opus-5.5,Anthropic,1,167,0,0,1,0,1,0.5988023952095808,0.5988023952095808,3,1.7964071856287425,3,1,March; 1; 20,4,0,0,0.174496644295302,26
+A|P3|vague|avoid|claude-opus-5.5|1,A,P3,vague,avoid,claude-opus-5.5,Anthropic,1,121,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,10,0,0,0.06422018348623854,7
+A|P3|specific|avoid|claude-opus-5.5|1,A,P3,specific,avoid,claude-opus-5.5,Anthropic,1,99,0,0,0,0,0,0.0,0.0,6,6.0606060606060606,0,0,,1,0,0,0.08235294117647059,7
+B|P3|-|orwell|claude-opus-5.5|1,B,P3,-,orwell,claude-opus-5.5,Anthropic,1,146,0,0,1,0,1,0.684931506849315,0.684931506849315,0,0.0,0,0,,0,3,1,0.13636363636363635,18
+A|P3|vague|plain|claude-opus-5.5|2,A,P3,vague,plain,claude-opus-5.5,Anthropic,2,149,0,0,1,0,1,0.6711409395973155,0.6711409395973155,0,0.0,0,0,,10,0,0,0.11428571428571428,16
+A|P3|specific|plain|claude-opus-5.5|2,A,P3,specific,plain,claude-opus-5.5,Anthropic,2,145,0,0,0,0,0,0.0,0.0,6,4.137931034482759,0,0,,1,0,0,0.07751937984496124,10
+B|P3|-|clearer|claude-opus-5.5|2,B,P3,-,clearer,claude-opus-5.5,Anthropic,2,170,0,0,1,0,1,0.5882352941176471,0.5882352941176471,1,0.5882352941176471,1,1,this week,2,0,0,0.14285714285714285,22
+A|P3|specific|plain|claude-sonnet-5.5|1,A,P3,specific,plain,claude-sonnet-5.5,Anthropic,1,132,0,0,0,0,0,0.0,0.0,4,3.0303030303030303,0,0,,1,0,0,0.03225806451612903,4
+A|P3|vague|avoid|claude-opus-5.5|2,A,P3,vague,avoid,claude-opus-5.5,Anthropic,2,150,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,13,0,0,0.11904761904761904,15
+A|P3|vague|plain|claude-sonnet-5.5|1,A,P3,vague,plain,claude-sonnet-5.5,Anthropic,1,165,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,7,0,0,0.0949367088607595,15
+B|P3|-|specific|claude-opus-5.5|2,B,P3,-,specific,claude-opus-5.5,Anthropic,2,179,0,0,1,0,1,0.5586592178770949,0.5586592178770949,5,2.793296089385475,5,1,2025; 82%; 90%; March; 1,5,0,0,0.12121212121212122,20
+A|P3|vague|avoid|claude-sonnet-5.5|1,A,P3,vague,avoid,claude-sonnet-5.5,Anthropic,1,176,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,7,0,0,0.03048780487804878,5
+A|P3|specific|avoid|claude-opus-5.5|2,A,P3,specific,avoid,claude-opus-5.5,Anthropic,2,105,0,0,0,0,0,0.0,0.0,6,5.714285714285714,0,0,,1,0,0,0.052083333333333336,5
+A|P3|specific|avoid|claude-sonnet-5.5|1,A,P3,specific,avoid,claude-sonnet-5.5,Anthropic,1,125,0,0,0,0,0,0.0,0.0,6,4.8,0,0,,1,0,0,0.02586206896551724,3
+B|P3|-|orwell|claude-opus-5.5|2,B,P3,-,orwell,claude-opus-5.5,Anthropic,2,33,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,1,1,0.32142857142857145,9
+B|P3|-|clearer|claude-sonnet-5.5|1,B,P3,-,clearer,claude-sonnet-5.5,Anthropic,1,104,0,0,1,0,1,0.9615384615384616,0.9615384615384616,0,0.0,0,0,,0,0,0,0.18947368421052632,18
+A|P3|specific|plain|claude-sonnet-5.5|2,A,P3,specific,plain,claude-sonnet-5.5,Anthropic,2,141,0,0,1,0,1,0.7092198581560284,0.7092198581560284,6,4.25531914893617,0,0,,1,0,0,0.14615384615384616,19
+B|P3|-|specific|claude-sonnet-5.5|1,B,P3,-,specific,claude-sonnet-5.5,Anthropic,1,166,0,0,0,0,0,0.0,0.0,4,2.4096385542168677,4,1,1; 2; 20%; 3,1,0,0,0.06535947712418301,10
+A|P3|specific|avoid|claude-sonnet-5.5|2,A,P3,specific,avoid,claude-sonnet-5.5,Anthropic,2,134,0,0,0,0,0,0.0,0.0,6,4.477611940298507,0,0,,1,0,0,0.05042016806722689,6
+A|P3|vague|plain|claude-sonnet-5.5|2,A,P3,vague,plain,claude-sonnet-5.5,Anthropic,2,182,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,7,0,0,0.08823529411764706,15
+B|P3|-|orwell|claude-sonnet-5.5|1,B,P3,-,orwell,claude-sonnet-5.5,Anthropic,1,109,0,0,2,0,2,1.834862385321101,1.834862385321101,0,0.0,0,0,,0,5,1,0.2,18
+B|P3|-|clearer|claude-sonnet-5.5|2,B,P3,-,clearer,claude-sonnet-5.5,Anthropic,2,135,0,0,1,0,1,0.7407407407407407,0.7407407407407407,0,0.0,0,0,,2,0,0,0.192,24
+A|P3|vague|avoid|claude-sonnet-5.5|2,A,P3,vague,avoid,claude-sonnet-5.5,Anthropic,2,186,0,0,0,0,0,0.0,0.0,1,0.5376344086021505,1,1,135,11,0,0,0.08139534883720931,14
+A|P3|specific|avoid|claude-haiku-5.5|1,A,P3,specific,avoid,claude-haiku-5.5,Anthropic,1,94,0,0,0,0,0,0.0,0.0,5,5.319148936170213,1,1,this week,1,0,0,0.04597701149425287,4
+B|P3|-|specific|claude-sonnet-5.5|2,B,P3,-,specific,claude-sonnet-5.5,Anthropic,2,175,0,0,1,0,1,0.5714285714285714,0.5714285714285714,5,2.857142857142857,5,1,1; 2; 15%; 3; 4,0,4,1,0.050955414012738856,8
+B|P3|-|clearer|claude-haiku-5.5|1,B,P3,-,clearer,claude-haiku-5.5,Anthropic,1,67,0,0,1,0,1,1.492537313432836,1.492537313432836,0,0.0,0,0,,0,0,0,0.08333333333333333,5
+A|P3|vague|plain|claude-haiku-5.5|1,A,P3,vague,plain,claude-haiku-5.5,Anthropic,1,160,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,7,0,0,0.07333333333333333,11
+A|P3|specific|plain|claude-haiku-5.5|1,A,P3,specific,plain,claude-haiku-5.5,Anthropic,1,118,0,0,1,0,1,0.847457627118644,0.847457627118644,6,5.084745762711864,0,0,,1,0,0,0.1111111111111111,12
+A|P3|vague|avoid|claude-haiku-5.5|1,A,P3,vague,avoid,claude-haiku-5.5,Anthropic,1,158,0,0,0,0,0,0.0,0.0,2,1.2658227848101267,2,1,2; 3,6,0,0,0.04929577464788732,7
+B|P3|-|specific|claude-haiku-5.5|1,B,P3,-,specific,claude-haiku-5.5,Anthropic,1,107,0,0,0,0,0,0.0,0.0,2,1.8691588785046729,2,1,15%; 2025,0,0,0,0.1875,18
+B|P3|-|orwell|claude-sonnet-5.5|2,B,P3,-,orwell,claude-sonnet-5.5,Anthropic,2,92,0,0,1,0,1,1.0869565217391304,1.0869565217391304,0,0.0,0,0,,0,5,1,0.14102564102564102,11
+A|P3|specific|avoid|claude-haiku-5.5|2,A,P3,specific,avoid,claude-haiku-5.5,Anthropic,2,74,0,0,0,0,0,0.0,0.0,4,5.405405405405405,0,0,,1,0,0,0.046153846153846156,3
+A|P3|specific|plain|claude-haiku-5.5|2,A,P3,specific,plain,claude-haiku-5.5,Anthropic,2,108,0,0,1,0,1,0.9259259259259259,0.9259259259259259,6,5.555555555555555,0,0,,1,0,0,0.09183673469387756,9
+B|P3|-|clearer|claude-haiku-5.5|2,B,P3,-,clearer,claude-haiku-5.5,Anthropic,2,66,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.30357142857142855,17
+A|P3|vague|avoid|claude-haiku-5.5|2,A,P3,vague,avoid,claude-haiku-5.5,Anthropic,2,106,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,13,0,0,0.05154639175257732,5
+A|P3|vague|plain|claude-haiku-5.5|2,A,P3,vague,plain,claude-haiku-5.5,Anthropic,2,158,0,0,1,0,1,0.6329113924050633,0.6329113924050633,1,0.6329113924050633,1,1,1,6,0,0,0.10416666666666667,15
+B|P3|-|orwell|claude-haiku-5.5|1,B,P3,-,orwell,claude-haiku-5.5,Anthropic,1,24,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,1,1,0.35,7
+B|P3|-|specific|claude-haiku-5.5|2,B,P3,-,specific,claude-haiku-5.5,Anthropic,2,112,0,0,0,0,0,0.0,0.0,2,1.7857142857142858,2,1,15%; 40%,0,0,0,0.19387755102040816,19
+B|P3|-|orwell|claude-haiku-5.5|2,B,P3,-,orwell,claude-haiku-5.5,Anthropic,2,17,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.46153846153846156,6
+A|P3|vague|plain|claude-sonnet-4.6|1,A,P3,vague,plain,claude-sonnet-4.6,Anthropic,1,141,0,0,2,1,3,2.127659574468085,1.4184397163120568,0,0.0,0,0,,2,0,0,0.1791044776119403,24
+A|P3|specific|plain|claude-sonnet-4.6|1,A,P3,specific,plain,claude-sonnet-4.6,Anthropic,1,124,0,0,2,0,2,1.6129032258064515,1.6129032258064515,5,4.032258064516129,0,0,,1,0,0,0.06956521739130435,8
+A|P3|specific|avoid|claude-sonnet-4.6|1,A,P3,specific,avoid,claude-sonnet-4.6,Anthropic,1,113,0,0,0,0,0,0.0,0.0,4,3.5398230088495577,1,1,this week,0,0,0,0.08823529411764706,9
+A|P3|vague|avoid|claude-sonnet-4.6|1,A,P3,vague,avoid,claude-sonnet-4.6,Anthropic,1,147,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,6,0,0,0.15037593984962405,20
+B|P3|-|orwell|claude-sonnet-4.6|1,B,P3,-,orwell,claude-sonnet-4.6,Anthropic,1,110,0,0,2,0,2,1.8181818181818181,1.8181818181818181,0,0.0,0,0,,0,5,1,0.22580645161290322,21
+B|P3|-|clearer|claude-sonnet-4.6|1,B,P3,-,clearer,claude-sonnet-4.6,Anthropic,1,142,0,0,1,0,1,0.704225352112676,0.704225352112676,0,0.0,0,0,,1,4,1,0.22137404580152673,29
+B|P3|-|specific|claude-sonnet-4.6|1,B,P3,-,specific,claude-sonnet-4.6,Anthropic,1,156,0,0,0,0,0,0.0,0.0,2,1.2820512820512822,2,1,90; 80%,0,1,1,0.11724137931034483,17
+A|P3|vague|plain|claude-sonnet-4.6|2,A,P3,vague,plain,claude-sonnet-4.6,Anthropic,2,145,0,0,2,1,3,2.0689655172413794,1.3793103448275863,0,0.0,0,0,,2,1,1,0.23134328358208955,31
+A|P3|specific|avoid|claude-sonnet-4.6|2,A,P3,specific,avoid,claude-sonnet-4.6,Anthropic,2,110,0,0,0,0,0,0.0,0.0,4,3.6363636363636362,0,0,,0,0,0,0.11,11
+A|P3|vague|avoid|claude-sonnet-4.6|2,A,P3,vague,avoid,claude-sonnet-4.6,Anthropic,2,137,0,0,1,0,1,0.7299270072992701,0.7299270072992701,1,0.7299270072992701,1,1,next week,8,0,0,0.11904761904761904,15
+A|P3|vague|plain|nova-pro|1,A,P3,vague,plain,nova-pro,Amazon,1,68,1,0,0,3,4,5.882352941176471,1.4705882352941178,2,2.9411764705882355,2,1,Monday; Friday,1,0,0,0.046153846153846156,3
+A|P3|specific|plain|claude-sonnet-4.6|2,A,P3,specific,plain,claude-sonnet-4.6,Anthropic,2,133,0,0,1,0,1,0.7518796992481203,0.7518796992481203,6,4.511278195488722,0,0,,1,0,0,0.07317073170731707,9
+B|P3|-|orwell|claude-sonnet-4.6|2,B,P3,-,orwell,claude-sonnet-4.6,Anthropic,2,88,0,0,2,0,2,2.272727272727273,2.272727272727273,0,0.0,0,0,,0,5,1,0.2972972972972973,22
+B|P3|-|clearer|claude-sonnet-4.6|2,B,P3,-,clearer,claude-sonnet-4.6,Anthropic,2,138,0,0,1,0,1,0.7246376811594203,0.7246376811594203,0,0.0,0,0,,0,1,1,0.1640625,21
+B|P3|-|clearer|nova-pro|1,B,P3,-,clearer,nova-pro,Amazon,1,13,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P3|-|specific|nova-pro|1,B,P3,-,specific,nova-pro,Amazon,1,27,1,0,1,1,3,11.11111111111111,7.407407407407407,0,0.0,0,0,,0,0,0,0.0,0
+A|P3|vague|avoid|nova-pro|1,A,P3,vague,avoid,nova-pro,Amazon,1,67,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,1,0,0,0.171875,11
+A|P3|specific|plain|nova-pro|1,A,P3,specific,plain,nova-pro,Amazon,1,79,0,0,0,1,1,1.2658227848101267,0.0,4,5.063291139240507,0,0,,0,0,0,0.1111111111111111,8
+A|P3|specific|avoid|nova-pro|1,A,P3,specific,avoid,nova-pro,Amazon,1,64,0,0,0,0,0,0.0,0.0,3,4.6875,0,0,,0,0,0,0.01639344262295082,1
+B|P3|-|specific|claude-sonnet-4.6|2,B,P3,-,specific,claude-sonnet-4.6,Anthropic,2,161,0,0,1,0,1,0.6211180124223602,0.6211180124223602,0,0.0,0,0,,0,1,1,0.11764705882352941,18
+B|P3|-|clearer|nova-pro|2,B,P3,-,clearer,nova-pro,Amazon,2,13,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P3|vague|avoid|nova-pro|2,A,P3,vague,avoid,nova-pro,Amazon,2,57,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,1,0,0,0.14814814814814814,8
+A|P3|specific|plain|nova-pro|2,A,P3,specific,plain,nova-pro,Amazon,2,69,0,0,0,1,1,1.4492753623188406,0.0,4,5.797101449275362,0,0,,1,0,0,0.09230769230769231,6
+A|P3|vague|plain|nova-pro|2,A,P3,vague,plain,nova-pro,Amazon,2,54,0,0,0,1,1,1.8518518518518519,0.0,0,0.0,0,0,,2,0,0,0.058823529411764705,3
+A|P3|specific|avoid|nova-pro|2,A,P3,specific,avoid,nova-pro,Amazon,2,59,0,0,0,0,0,0.0,0.0,3,5.084745762711864,0,0,,1,0,0,0.05454545454545454,3
+B|P3|-|specific|nova-pro|2,B,P3,-,specific,nova-pro,Amazon,2,29,0,0,0,1,1,3.4482758620689653,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P3|-|orwell|nova-pro|1,B,P3,-,orwell,nova-pro,Amazon,1,109,0,0,2,1,3,2.7522935779816513,1.834862385321101,0,0.0,0,0,,0,4,1,0.24468085106382978,23
+B|P3|-|clearer|nova-lite|1,B,P3,-,clearer,nova-lite,Amazon,1,13,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P3|vague|plain|nova-lite|1,A,P3,vague,plain,nova-lite,Amazon,1,116,0,0,0,3,3,2.586206896551724,0.0,0,0.0,0,0,,2,0,0,0.11009174311926606,12
+B|P3|-|orwell|nova-pro|2,B,P3,-,orwell,nova-pro,Amazon,2,70,0,0,2,0,2,2.857142857142857,2.857142857142857,0,0.0,0,0,,0,3,1,0.3728813559322034,22
+B|P3|-|specific|nova-lite|1,B,P3,-,specific,nova-lite,Amazon,1,28,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P3|specific|plain|nova-lite|1,A,P3,specific,plain,nova-lite,Amazon,1,85,0,0,0,1,1,1.1764705882352942,0.0,4,4.705882352941177,0,0,,1,0,0,0.0379746835443038,3
+A|P3|vague|avoid|nova-lite|1,A,P3,vague,avoid,nova-lite,Amazon,1,83,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,1,0,0,0.07692307692307693,6
+A|P3|specific|avoid|nova-lite|1,A,P3,specific,avoid,nova-lite,Amazon,1,99,0,0,0,0,0,0.0,0.0,4,4.040404040404041,0,0,,1,0,0,0.0851063829787234,8
+B|P3|-|orwell|nova-lite|1,B,P3,-,orwell,nova-lite,Amazon,1,84,0,0,2,0,2,2.380952380952381,2.380952380952381,0,0.0,0,0,,0,3,1,0.33783783783783783,25
+A|P3|vague|plain|nova-lite|2,A,P3,vague,plain,nova-lite,Amazon,2,93,0,0,1,2,3,3.225806451612903,1.075268817204301,1,1.075268817204301,1,1,next week,1,0,0,0.125,11
+B|P3|-|clearer|nova-lite|2,B,P3,-,clearer,nova-lite,Amazon,2,14,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P3|vague|avoid|nova-lite|2,A,P3,vague,avoid,nova-lite,Amazon,2,95,0,0,0,0,0,0.0,0.0,1,1.0526315789473684,1,1,next week,1,0,0,0.18181818181818182,16
+B|P3|-|specific|nova-lite|2,B,P3,-,specific,nova-lite,Amazon,2,28,0,0,1,1,2,7.142857142857143,3.5714285714285716,0,0.0,0,0,,0,0,0,0.0,0
+A|P3|specific|avoid|nova-lite|2,A,P3,specific,avoid,nova-lite,Amazon,2,70,0,0,0,0,0,0.0,0.0,3,4.285714285714286,0,0,,1,0,0,0.04477611940298507,3
+A|P3|specific|plain|nova-lite|2,A,P3,specific,plain,nova-lite,Amazon,2,71,0,0,0,1,1,1.408450704225352,0.0,3,4.225352112676056,0,0,,1,0,0,0.1044776119402985,7
+B|P3|-|orwell|nova-lite|2,B,P3,-,orwell,nova-lite,Amazon,2,102,0,0,3,0,3,2.9411764705882355,2.9411764705882355,0,0.0,0,0,,0,3,1,0.2,18
+B|P3|-|clearer|qwen3-32b|1,B,P3,-,clearer,qwen3-32b,Alibaba,1,11,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P3|-|orwell|qwen3-32b|1,B,P3,-,orwell,qwen3-32b,Alibaba,1,120,0,0,2,0,2,1.6666666666666667,1.6666666666666667,0,0.0,0,0,,0,3,1,0.20535714285714285,23
+A|P3|vague|plain|qwen3-32b|1,A,P3,vague,plain,qwen3-32b,Alibaba,1,114,0,0,1,2,3,2.6315789473684212,0.8771929824561403,1,0.8771929824561403,1,1,next week,1,0,0,0.19811320754716982,21
+A|P3|specific|plain|qwen3-32b|1,A,P3,specific,plain,qwen3-32b,Alibaba,1,126,0,0,1,0,1,0.7936507936507936,0.7936507936507936,4,3.1746031746031744,0,0,,1,0,0,0.08403361344537816,10
+A|P3|specific|avoid|qwen3-32b|1,A,P3,specific,avoid,qwen3-32b,Alibaba,1,108,0,0,0,0,0,0.0,0.0,4,3.7037037037037037,0,0,,1,0,0,0.06930693069306931,7
+A|P3|vague|avoid|qwen3-32b|2,A,P3,vague,avoid,qwen3-32b,Alibaba,2,116,0,0,1,0,1,0.8620689655172413,0.8620689655172413,1,0.8620689655172413,1,1,next week,1,0,0,0.10810810810810811,12
+A|P3|vague|avoid|qwen3-32b|1,A,P3,vague,avoid,qwen3-32b,Alibaba,1,125,0,0,0,1,1,0.8,0.0,1,0.8,1,1,next week,1,0,0,0.15254237288135594,18
+B|P3|-|specific|qwen3-32b|1,B,P3,-,specific,qwen3-32b,Alibaba,1,25,0,0,0,1,1,4.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+B|P3|-|clearer|qwen3-32b|2,B,P3,-,clearer,qwen3-32b,Alibaba,2,11,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.0,0
+A|P3|vague|plain|qwen3-32b|2,A,P3,vague,plain,qwen3-32b,Alibaba,2,102,0,0,0,2,2,1.9607843137254901,0.0,1,0.9803921568627451,1,1,next week,1,0,0,0.12244897959183673,12
+B|P3|-|specific|qwen3-32b|2,B,P3,-,specific,qwen3-32b,Alibaba,2,24,0,0,1,0,1,4.166666666666667,4.166666666666667,0,0.0,0,0,,0,0,0,0.0,0
+A|P3|specific|avoid|qwen3-32b|2,A,P3,specific,avoid,qwen3-32b,Alibaba,2,96,0,0,0,1,1,1.0416666666666667,0.0,4,4.166666666666667,0,0,,1,0,0,0.034482758620689655,3
+A|P3|specific|plain|qwen3-32b|2,A,P3,specific,plain,qwen3-32b,Alibaba,2,103,0,0,1,0,1,0.970873786407767,0.970873786407767,3,2.912621359223301,0,0,,1,0,0,0.041666666666666664,4
+B|P3|-|orwell|qwen3-32b|2,B,P3,-,orwell,qwen3-32b,Alibaba,2,222,0,0,4,0,4,1.8018018018018018,1.8018018018018018,3,1.3513513513513513,3,1,1; 2; 3,0,7,1,0.07058823529411765,12
+A|P4|specific|plain|claude-opus-5.5|1,A,P4,specific,plain,claude-opus-5.5,Anthropic,1,83,0,0,0,0,0,0.0,0.0,8,9.63855421686747,3,1,Q3; £0; this quarter,0,0,0,0.02666666666666667,2
+A|P4|vague|plain|claude-opus-5.5|1,A,P4,vague,plain,claude-opus-5.5,Anthropic,1,155,0,0,0,0,0,0.0,0.0,1,0.6451612903225806,1,1,last year,15,0,0,0.02027027027027027,3
+B|P4|-|clearer|claude-opus-5.5|1,B,P4,-,clearer,claude-opus-5.5,Anthropic,1,129,0,0,0,0,0,0.0,0.0,4,3.10077519379845,1,1,Q4,0,0,0,0.043859649122807015,5
+A|P4|specific|avoid|claude-opus-5.5|1,A,P4,specific,avoid,claude-opus-5.5,Anthropic,1,86,0,0,0,0,0,0.0,0.0,6,6.976744186046512,1,1,next quarter,0,0,0,0.03896103896103896,3
+A|P4|vague|avoid|claude-opus-5.5|1,A,P4,vague,avoid,claude-opus-5.5,Anthropic,1,147,0,0,0,0,0,0.0,0.0,2,1.3605442176870748,2,1,last quarter; next quarter,22,0,0,0.05673758865248227,8
+B|P4|-|specific|claude-opus-5.5|1,B,P4,-,specific,claude-opus-5.5,Anthropic,1,181,0,0,0,0,0,0.0,0.0,10,5.524861878453039,7,1,3; Q4; 12%; $4; 3; 40%,7,0,0,0.10429447852760736,17
+B|P4|-|orwell|claude-opus-5.5|1,B,P4,-,orwell,claude-opus-5.5,Anthropic,1,156,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,9,1,0.1048951048951049,15
+A|P4|vague|plain|claude-opus-5.5|2,A,P4,vague,plain,claude-opus-5.5,Anthropic,2,155,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,20,0,0,0.05405405405405406,8
+A|P4|vague|avoid|claude-opus-5.5|2,A,P4,vague,avoid,claude-opus-5.5,Anthropic,2,161,0,0,0,0,0,0.0,0.0,3,1.8633540372670807,3,1,last quarter; Next quarter; Next quarter,16,0,0,0.10738255033557047,16
+A|P4|specific|plain|claude-opus-5.5|2,A,P4,specific,plain,claude-opus-5.5,Anthropic,2,93,0,0,0,0,0,0.0,0.0,9,9.67741935483871,4,1,Q3; £0; this quarter; next quarter,0,0,0,0.023529411764705882,2
+B|P4|-|clearer|claude-opus-5.5|2,B,P4,-,clearer,claude-opus-5.5,Anthropic,2,102,0,0,0,0,0,0.0,0.0,3,2.9411764705882355,1,1,Q4,0,0,0,0.05319148936170213,5
+A|P4|specific|avoid|claude-sonnet-5.5|1,A,P4,specific,avoid,claude-sonnet-5.5,Anthropic,1,89,0,0,0,0,0,0.0,0.0,7,7.865168539325842,2,1,£0; next quarter,0,0,0,0.05128205128205128,4
+A|P4|specific|plain|claude-sonnet-5.5|1,A,P4,specific,plain,claude-sonnet-5.5,Anthropic,1,101,0,0,0,0,0,0.0,0.0,7,6.930693069306931,2,1,Q3; £0,0,0,0,0.053763440860215055,5
+A|P4|vague|plain|claude-sonnet-5.5|1,A,P4,vague,plain,claude-sonnet-5.5,Anthropic,1,141,0,0,0,0,0,0.0,0.0,3,2.127659574468085,3,1,Q3; Q3; Q4,12,0,0,0.06923076923076923,9
+A|P4|specific|avoid|claude-opus-5.5|2,A,P4,specific,avoid,claude-opus-5.5,Anthropic,2,97,0,0,0,0,0,0.0,0.0,6,6.185567010309279,1,1,next quarter,0,0,0,0.047058823529411764,4
+B|P4|-|specific|claude-opus-5.5|2,B,P4,-,specific,claude-opus-5.5,Anthropic,2,156,0,0,0,0,0,0.0,0.0,10,6.410256410256411,7,1,Q4; 8%; $4; 3; 22%; Q4,7,0,0,0.10714285714285714,15
+A|P4|vague|avoid|claude-sonnet-5.5|1,A,P4,vague,avoid,claude-sonnet-5.5,Anthropic,1,146,0,0,0,0,0,0.0,0.0,3,2.0547945205479454,3,1,last quarter; last year; Next quarter,19,0,0,0.11805555555555555,17
+A|P4|specific|plain|claude-sonnet-5.5|2,A,P4,specific,plain,claude-sonnet-5.5,Anthropic,2,90,0,0,0,0,0,0.0,0.0,7,7.777777777777778,2,1,£0; next quarter,0,0,0,0.08536585365853659,7
+B|P4|-|orwell|claude-opus-5.5|2,B,P4,-,orwell,claude-opus-5.5,Anthropic,2,139,0,0,0,0,0,0.0,0.0,1,0.7194244604316546,1,1,next quarter,0,3,1,0.140625,18
+B|P4|-|clearer|claude-sonnet-5.5|1,B,P4,-,clearer,claude-sonnet-5.5,Anthropic,1,139,0,0,0,0,0,0.0,0.0,5,3.597122302158273,2,1,Q4; Q4,4,0,0,0.1111111111111111,14
+A|P4|specific|avoid|claude-sonnet-5.5|2,A,P4,specific,avoid,claude-sonnet-5.5,Anthropic,2,86,0,0,0,0,0,0.0,0.0,7,8.13953488372093,2,1,£0; next quarter,0,0,0,0.05194805194805195,4
+A|P4|vague|plain|claude-sonnet-5.5|2,A,P4,vague,plain,claude-sonnet-5.5,Anthropic,2,152,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,18,0,0,0.07857142857142857,11
+B|P4|-|specific|claude-sonnet-5.5|1,B,P4,-,specific,claude-sonnet-5.5,Anthropic,1,160,0,0,0,0,0,0.0,0.0,9,5.625,7,1,Q4; 8%; 3; 14%; 94%; 22%,6,0,0,0.14084507042253522,20
+B|P4|-|orwell|claude-sonnet-5.5|1,B,P4,-,orwell,claude-sonnet-5.5,Anthropic,1,95,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,3,1,0.12643678160919541,11
+A|P4|vague|avoid|claude-sonnet-5.5|2,A,P4,vague,avoid,claude-sonnet-5.5,Anthropic,2,141,0,0,0,0,0,0.0,0.0,2,1.4184397163120568,2,1,last quarter; Next quarter,19,0,0,0.14285714285714285,19
+A|P4|specific|plain|claude-haiku-5.5|1,A,P4,specific,plain,claude-haiku-5.5,Anthropic,1,60,0,0,0,0,0,0.0,0.0,6,10.0,1,1,Q3,0,0,0,0.037037037037037035,2
+A|P4|specific|avoid|claude-haiku-5.5|1,A,P4,specific,avoid,claude-haiku-5.5,Anthropic,1,79,0,0,0,0,0,0.0,0.0,5,6.329113924050633,0,0,,0,0,0,0.07142857142857142,5
+B|P4|-|clearer|claude-sonnet-5.5|2,B,P4,-,clearer,claude-sonnet-5.5,Anthropic,2,116,0,0,0,0,0,0.0,0.0,3,2.586206896551724,0,0,,5,0,0,0.10909090909090909,12
+B|P4|-|clearer|claude-haiku-5.5|1,B,P4,-,clearer,claude-haiku-5.5,Anthropic,1,102,0,0,0,0,0,0.0,0.0,4,3.9215686274509802,0,0,,0,0,0,0.09090909090909091,8
+B|P4|-|specific|claude-sonnet-5.5|2,B,P4,-,specific,claude-sonnet-5.5,Anthropic,2,133,0,0,0,0,0,0.0,0.0,7,5.2631578947368425,5,1,Q4; 12%; $4; 8%; Q4,10,0,0,0.11290322580645161,14
+A|P4|vague|plain|claude-haiku-5.5|1,A,P4,vague,plain,claude-haiku-5.5,Anthropic,1,101,0,0,0,0,0,0.0,0.0,4,3.9603960396039604,4,1,Q3; This quarter; Q4; 95,14,0,0,0.05102040816326531,5
+B|P4|-|specific|claude-haiku-5.5|1,B,P4,-,specific,claude-haiku-5.5,Anthropic,1,85,0,0,0,0,0,0.0,0.0,9,10.588235294117647,7,1,12%; $4; 25%; 3; 14%; 92%,0,0,0,0.14473684210526316,11
+A|P4|vague|avoid|claude-haiku-5.5|1,A,P4,vague,avoid,claude-haiku-5.5,Anthropic,1,113,0,0,0,0,0,0.0,0.0,12,10.619469026548673,12,1,$4.2; this quarter; 9%; last quarter; 14%; 6%,0,0,0,0.010101010101010102,1
+B|P4|-|orwell|claude-sonnet-5.5|2,B,P4,-,orwell,claude-sonnet-5.5,Anthropic,2,72,0,0,0,0,0,0.0,0.0,2,2.7777777777777777,2,1,last quarter; last year,0,2,1,0.11940298507462686,8
+A|P4|specific|avoid|claude-haiku-5.5|2,A,P4,specific,avoid,claude-haiku-5.5,Anthropic,2,80,0,0,0,0,0,0.0,0.0,5,6.25,0,0,,0,0,0,0.07142857142857142,5
+A|P4|specific|plain|claude-haiku-5.5|2,A,P4,specific,plain,claude-haiku-5.5,Anthropic,2,65,0,0,0,0,0,0.0,0.0,6,9.23076923076923,1,1,Q3,0,0,0,0.03508771929824561,2
+A|P4|vague|plain|claude-haiku-5.5|2,A,P4,vague,plain,claude-haiku-5.5,Anthropic,2,115,0,0,0,0,0,0.0,0.0,14,12.173913043478262,14,1,Q3; $12; 9%; 4%; 15%; 94%,0,0,0,0.019801980198019802,2
+B|P4|-|orwell|claude-haiku-5.5|1,B,P4,-,orwell,claude-haiku-5.5,Anthropic,1,80,0,0,0,0,0,0.0,0.0,1,1.25,0,0,,0,5,1,0.015151515151515152,1
+B|P4|-|clearer|claude-haiku-5.5|2,B,P4,-,clearer,claude-haiku-5.5,Anthropic,2,86,0,0,0,0,0,0.0,0.0,3,3.488372093023256,0,0,,0,0,0,0.23076923076923078,18
+B|P4|-|specific|claude-haiku-5.5|2,B,P4,-,specific,claude-haiku-5.5,Anthropic,2,79,0,0,0,0,0,0.0,0.0,8,10.126582278481013,7,1,12%; $4; 25%; 3; 18%; 40%,0,0,0,0.208955223880597,14
+A|P4|vague|avoid|claude-haiku-5.5|2,A,P4,vague,avoid,claude-haiku-5.5,Anthropic,2,98,0,0,0,0,0,0.0,0.0,12,12.244897959183673,12,1,$4.2; this quarter; 9%; last quarter; 14%; 11,0,0,0,0.0,0
+B|P4|-|orwell|claude-haiku-5.5|2,B,P4,-,orwell,claude-haiku-5.5,Anthropic,2,35,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,1,1,0.3,9
+A|P4|vague|plain|claude-sonnet-4.6|1,A,P4,vague,plain,claude-sonnet-4.6,Anthropic,1,132,0,0,1,1,2,1.5151515151515151,0.7575757575757576,12,9.090909090909092,12,1,Q3; Q3; This quarter; $4; 12%; 3%,0,0,0,0.008333333333333333,1
+A|P4|specific|plain|claude-sonnet-4.6|1,A,P4,specific,plain,claude-sonnet-4.6,Anthropic,1,115,0,0,0,0,0,0.0,0.0,7,6.086956521739131,2,1,Q3; Q4,0,0,0,0.027522935779816515,3
+A|P4|vague|avoid|claude-sonnet-4.6|1,A,P4,vague,avoid,claude-sonnet-4.6,Anthropic,1,153,0,0,0,0,0,0.0,0.0,16,10.457516339869281,16,1,Q3; $4; 12%; last quarter; 18%; last year,0,0,0,0.04477611940298507,6
+A|P4|specific|avoid|claude-sonnet-4.6|1,A,P4,specific,avoid,claude-sonnet-4.6,Anthropic,1,117,0,0,0,0,0,0.0,0.0,6,5.128205128205129,0,0,,0,0,0,0.028037383177570093,3
+B|P4|-|clearer|claude-sonnet-4.6|1,B,P4,-,clearer,claude-sonnet-4.6,Anthropic,1,129,0,0,0,0,0,0.0,0.0,3,2.3255813953488373,0,0,,0,0,0,0.13821138211382114,17
+B|P4|-|orwell|claude-sonnet-4.6|1,B,P4,-,orwell,claude-sonnet-4.6,Anthropic,1,68,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,7,1,0.1724137931034483,10
+B|P4|-|specific|claude-sonnet-4.6|1,B,P4,-,specific,claude-sonnet-4.6,Anthropic,1,150,0,0,0,0,0,0.0,0.0,13,8.666666666666666,9,1,"12%; $4; 5%; 1,200; 8%; 18%",0,1,1,0.12686567164179105,17
+A|P4|specific|avoid|claude-sonnet-4.6|2,A,P4,specific,avoid,claude-sonnet-4.6,Anthropic,2,87,0,0,0,0,0,0.0,0.0,6,6.896551724137931,1,1,Q1,0,0,0,0.038461538461538464,3
+A|P4|vague|plain|nova-pro|1,A,P4,vague,plain,nova-pro,Amazon,1,78,0,0,0,0,0,0.0,0.0,7,8.974358974358974,7,1,This quarter; 12%; 5%; 8%; 10%; 15%,0,0,0,0.014285714285714285,1
+B|P4|-|specific|claude-sonnet-4.6|2,B,P4,-,specific,claude-sonnet-4.6,Anthropic,2,81,0,0,0,0,0,0.0,0.0,6,7.407407407407407,5,1,12%; $4.2; 8%; Q1; 2024,0,0,0,0.1111111111111111,8
+A|P4|specific|plain|claude-sonnet-4.6|2,A,P4,specific,plain,claude-sonnet-4.6,Anthropic,2,139,0,0,0,0,0,0.0,0.0,7,5.0359712230215825,2,1,Q3; Q4,0,0,0,0.03787878787878788,5
+A|P4|vague|avoid|claude-sonnet-4.6|2,A,P4,vague,avoid,claude-sonnet-4.6,Anthropic,2,142,0,0,0,0,0,0.0,0.0,12,8.450704225352112,12,1,Q3; $4; 12%; Q2; 18%; 9%,0,0,0,0.015267175572519083,2
+B|P4|-|orwell|claude-sonnet-4.6|2,B,P4,-,orwell,claude-sonnet-4.6,Anthropic,2,83,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,6,1,0.17567567567567569,13
+B|P4|-|clearer|claude-sonnet-4.6|2,B,P4,-,clearer,claude-sonnet-4.6,Anthropic,2,131,0,0,0,0,0,0.0,0.0,3,2.2900763358778624,0,0,,0,1,1,0.15447154471544716,19
+A|P4|vague|plain|claude-sonnet-4.6|2,A,P4,vague,plain,claude-sonnet-4.6,Anthropic,2,146,0,0,0,0,0,0.0,0.0,20,13.698630136986301,20,1,Q3; 2024; Q3; 2024; $4; 12%,0,0,0,0.023809523809523808,3
+A|P4|vague|avoid|nova-pro|1,A,P4,vague,avoid,nova-pro,Amazon,1,62,0,0,0,0,0,0.0,0.0,1,1.6129032258064515,1,1,last quarter,0,0,0,0.017543859649122806,1
+B|P4|-|clearer|nova-pro|1,B,P4,-,clearer,nova-pro,Amazon,1,18,0,0,0,0,0,0.0,0.0,1,5.555555555555555,0,0,,0,0,0,0.0,0
+A|P4|specific|avoid|nova-pro|1,A,P4,specific,avoid,nova-pro,Amazon,1,67,0,0,0,0,0,0.0,0.0,7,10.447761194029852,4,1,"This quarter; £2.1; £300,000; £2.4",0,0,0,0.037037037037037035,2
+B|P4|-|specific|nova-pro|1,B,P4,-,specific,nova-pro,Amazon,1,42,0,0,0,1,1,2.380952380952381,0.0,1,2.380952380952381,0,0,,0,0,0,0.0,0
+A|P4|specific|plain|nova-pro|1,A,P4,specific,plain,nova-pro,Amazon,1,65,0,0,0,1,1,1.5384615384615385,0.0,6,9.23076923076923,3,1,This quarter; £2.1; £2.4,0,0,0,0.017543859649122806,1
+A|P4|vague|avoid|nova-pro|2,A,P4,vague,avoid,nova-pro,Amazon,2,54,0,0,0,0,0,0.0,0.0,1,1.8518518518518519,1,1,12%,0,0,0,0.0,0
+B|P4|-|clearer|nova-pro|2,B,P4,-,clearer,nova-pro,Amazon,2,17,0,0,0,0,0,0.0,0.0,1,5.882352941176471,0,0,,0,0,0,0.0,0
+A|P4|specific|avoid|nova-pro|2,A,P4,specific,avoid,nova-pro,Amazon,2,56,0,0,0,0,0,0.0,0.0,5,8.928571428571429,2,1,£2.1; £2.4,0,0,0,0.0425531914893617,2
+A|P4|specific|plain|nova-pro|2,A,P4,specific,plain,nova-pro,Amazon,2,88,0,0,0,1,1,1.1363636363636365,0.0,6,6.818181818181818,3,1,this quarter; £2.1; £2.4,0,0,0,0.025,2
+A|P4|vague|plain|nova-pro|2,A,P4,vague,plain,nova-pro,Amazon,2,84,0,0,0,1,1,1.1904761904761905,0.0,4,4.761904761904762,4,1,Q2; 12%; 8%; 5%,0,0,0,0.0,0
+B|P4|-|orwell|nova-pro|2,B,P4,-,orwell,nova-pro,Amazon,2,69,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,3,1,0.32727272727272727,18
+A|P4|specific|plain|nova-lite|1,A,P4,specific,plain,nova-lite,Amazon,1,64,0,0,0,1,1,1.5625,0.0,6,9.375,1,1,This quarter,0,0,0,0.034482758620689655,2
+A|P4|vague|plain|nova-lite|1,A,P4,vague,plain,nova-lite,Amazon,1,85,1,0,0,1,2,2.3529411764705883,1.1764705882352942,5,5.882352941176471,5,1,This quarter; 15%; 10%; 5%; 20%,0,0,0,0.0379746835443038,3
+B|P4|-|clearer|nova-lite|1,B,P4,-,clearer,nova-lite,Amazon,1,11,0,1,0,0,1,9.090909090909092,9.090909090909092,1,9.090909090909092,0,0,,0,0,0,0.0,0
+A|P4|vague|avoid|nova-lite|1,A,P4,vague,avoid,nova-lite,Amazon,1,109,0,0,1,0,1,0.9174311926605505,0.9174311926605505,4,3.669724770642202,4,1,This quarter; 20%; 15%; 10%,0,0,0,0.10891089108910891,11
+A|P4|specific|avoid|nova-lite|1,A,P4,specific,avoid,nova-lite,Amazon,1,70,0,0,0,0,0,0.0,0.0,6,8.571428571428571,1,1,This quarter,0,0,0,0.03278688524590164,2
+B|P4|-|specific|nova-pro|2,B,P4,-,specific,nova-pro,Amazon,2,65,1,0,0,0,1,1.5384615384615385,1.5384615384615385,3,4.615384615384615,2,1,2023; 15%,0,0,0,0.0,0
+B|P4|-|orwell|nova-pro|1,B,P4,-,orwell,nova-pro,Amazon,1,119,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,6,1,0.14772727272727273,13
+B|P4|-|specific|nova-lite|1,B,P4,-,specific,nova-lite,Amazon,1,38,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,0,0,0.027777777777777776,1
+B|P4|-|orwell|nova-lite|1,B,P4,-,orwell,nova-lite,Amazon,1,81,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,3,1,0.35294117647058826,24
+A|P4|vague|plain|nova-lite|2,A,P4,vague,plain,nova-lite,Amazon,2,83,0,0,0,1,1,1.2048192771084338,0.0,4,4.819277108433735,4,1,This quarter; 15%; 12%; 20%,0,0,0,0.025974025974025976,2
+A|P4|vague|avoid|nova-lite|2,A,P4,vague,avoid,nova-lite,Amazon,2,85,0,0,0,0,0,0.0,0.0,3,3.5294117647058822,3,1,This quarter; 10%; last quarter,0,0,0,0.0625,5
+B|P4|-|clearer|nova-lite|2,B,P4,-,clearer,nova-lite,Amazon,2,13,0,0,0,0,0,0.0,0.0,1,7.6923076923076925,0,0,,0,0,0,0.0,0
+A|P4|specific|avoid|nova-lite|2,A,P4,specific,avoid,nova-lite,Amazon,2,55,0,0,0,0,0,0.0,0.0,6,10.909090909090908,1,1,This quarter,0,0,0,0.061224489795918366,3
+B|P4|-|specific|nova-lite|2,B,P4,-,specific,nova-lite,Amazon,2,28,0,1,0,1,2,7.142857142857143,3.5714285714285716,0,0.0,0,0,,0,0,0,0.0,0
+A|P4|specific|plain|nova-lite|2,A,P4,specific,plain,nova-lite,Amazon,2,68,0,0,0,1,1,1.4705882352941178,0.0,6,8.823529411764707,1,1,This quarter,0,0,0,0.06557377049180328,4
+B|P4|-|clearer|qwen3-32b|1,B,P4,-,clearer,qwen3-32b,Alibaba,1,13,0,0,0,0,0,0.0,0.0,1,7.6923076923076925,0,0,,0,0,0,0.0,0
+A|P4|specific|avoid|qwen3-32b|1,A,P4,specific,avoid,qwen3-32b,Alibaba,1,62,0,0,0,0,0,0.0,0.0,6,9.67741935483871,1,1,This quarter,0,0,0,0.0,0
+B|P4|-|specific|qwen3-32b|1,B,P4,-,specific,qwen3-32b,Alibaba,1,24,0,0,0,0,0,0.0,0.0,1,4.166666666666667,0,0,,0,0,0,0.0,0
+A|P4|specific|plain|qwen3-32b|1,A,P4,specific,plain,qwen3-32b,Alibaba,1,78,0,0,0,1,1,1.2820512820512822,0.0,6,7.6923076923076925,1,1,This quarter,0,0,0,0.013888888888888888,1
+B|P4|-|orwell|nova-lite|2,B,P4,-,orwell,nova-lite,Amazon,2,186,0,0,0,0,0,0.0,0.0,2,1.075268817204301,0,0,,0,3,1,0.08666666666666667,13
+A|P4|vague|plain|qwen3-32b|1,A,P4,vague,plain,qwen3-32b,Alibaba,1,100,1,0,0,0,1,1.0,1.0,7,7.0,7,1,This quarter; 12%; 9%; 5%; 8%; 4%,0,0,0,0.0,0
+A|P4|vague|avoid|qwen3-32b|1,A,P4,vague,avoid,qwen3-32b,Alibaba,1,118,0,0,0,0,0,0.0,0.0,5,4.237288135593221,5,1,This quarter; 9%; 12%; 5%; next quarter,0,0,0,0.008849557522123894,1
+B|P4|-|orwell|qwen3-32b|1,B,P4,-,orwell,qwen3-32b,Alibaba,1,94,0,0,0,0,0,0.0,0.0,1,1.0638297872340425,0,0,,0,3,1,0.1724137931034483,15
+A|P4|vague|plain|qwen3-32b|2,A,P4,vague,plain,qwen3-32b,Alibaba,2,101,1,0,0,0,1,0.9900990099009901,0.9900990099009901,5,4.9504950495049505,5,1,This quarter; 12%; 9%; 8%; coming quarter,0,0,0,0.020833333333333332,2
+B|P4|-|orwell|qwen3-32b|2,B,P4,-,orwell,qwen3-32b,Alibaba,2,100,0,0,0,0,0,0.0,0.0,0,0.0,0,0,,0,6,1,0.20430107526881722,19
+B|P4|-|specific|qwen3-32b|2,B,P4,-,specific,qwen3-32b,Alibaba,2,28,0,0,0,0,0,0.0,0.0,1,3.5714285714285716,0,0,,0,0,0,0.0,0
+B|P4|-|clearer|qwen3-32b|2,B,P4,-,clearer,qwen3-32b,Alibaba,2,33,0,0,0,0,0,0.0,0.0,1,3.0303030303030303,0,0,,0,0,0,0.1935483870967742,6
+A|P4|specific|avoid|qwen3-32b|2,A,P4,specific,avoid,qwen3-32b,Alibaba,2,84,0,0,0,0,0,0.0,0.0,7,8.333333333333334,4,1,This quarter; £2.1; £2.4; next quarter,0,0,0,0.0,0
+A|P4|vague|avoid|qwen3-32b|2,A,P4,vague,avoid,qwen3-32b,Alibaba,2,116,0,0,0,0,0,0.0,0.0,1,0.8620689655172413,1,1,This quarter,0,0,0,0.017543859649122806,2
+A|P4|specific|plain|qwen3-32b|2,A,P4,specific,plain,qwen3-32b,Alibaba,2,81,0,0,0,1,1,1.2345679012345678,0.0,6,7.407407407407407,1,1,This quarter,0,0,0,0.02666666666666667,2
