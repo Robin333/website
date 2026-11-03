@@ -77,6 +77,7 @@ h2 { font-size: 1.75rem; line-height: 1.25; margin: 2.5rem 0 0.75rem; }
 .prose h1 { font-size: clamp(2.25rem, 5vw, 3.25rem); line-height: 1.1; margin: 1.5rem 0 1.5rem; }
 .prose ul, .prose ol { padding-left: 1.25rem; }
 .prose li { margin: 0.35rem 0; }
+.prose a, .prose li, .card pre { overflow-wrap: anywhere; }   /* long source URLs mustn't widen the page on phones */
 
 /* Tool cards: the machine voice on a page */
 .tool { margin: 2rem 0 2.5rem; }
